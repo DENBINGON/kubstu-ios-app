@@ -1,0 +1,16 @@
+PODS:
+  - StepperView (1.6.7)
+
+DEPENDENCIES:
+  - StepperView
+
+SPEC REPOS:
+  trunk:
+    - StepperView
+
+SPEC CHECKSUMS:
+  StepperView: 9b88922ef65712410c0e95c460cd115d33cfd933
+
+PODFILE CHECKSUM: 7abc62f0d67f70d3d7813162a8f8de8f169d343c
+
+COCOAPODS: 1.11.3
