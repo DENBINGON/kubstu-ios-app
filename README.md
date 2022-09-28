@@ -2,7 +2,7 @@
 
 It is a mobile application for students and teachers of the Kuban State Technological University!
 
-![](https://img.shields.io/badge/Swift-5-blue)
+![](https://img.shields.io/badge/Swift-5.7-blue) ![](https://img.shields.io/badge/iOS-14.1-blue) 
 
 
 ## Tech Stack
