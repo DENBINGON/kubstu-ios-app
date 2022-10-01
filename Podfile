@@ -7,4 +7,5 @@ target 'KubSTU-iOS' do
 
   # Pods for KubSTU-iOS
   pod 'StepperView'
+  pod 'SwiftyJSON'
 end

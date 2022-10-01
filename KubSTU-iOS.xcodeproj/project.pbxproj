@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		513DDE5528B00E2D00D09559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513DDE5428B00E2D00D09559 /* LaunchScreen.storyboard */; };
+		5138EF3E28E4B3DB00941FC3 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138EF3D28E4B3DB00941FC3 /* testing.swift */; };
+		5138EF4028E57AA100941FC3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5138EF3F28E57AA100941FC3 /* Launch Screen.storyboard */; };
+		51598ABC28E63E1900F18E0F /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51598ABB28E63E1900F18E0F /* NewsView.swift */; };
+		51598ABE28E63E3E00F18E0F /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51598ABD28E63E3E00F18E0F /* FindView.swift */; };
+		51598AC028E63E7C00F18E0F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51598ABF28E63E7C00F18E0F /* UserView.swift */; };
+		51598AC228E63EAB00F18E0F /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51598AC128E63EAB00F18E0F /* ScheduleView.swift */; };
 		5179CFE128DDD2EB00573D5B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179CFE028DDD2EB00573D5B /* Enums.swift */; };
-		51A7E35128C4E28D00D7155B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7E35028C4E28D00D7155B /* LoginView.swift */; };
+		51AF1D0928E5AB1300FE18CB /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AF1D0828E5AB1300FE18CB /* ScheduleCardView.swift */; };
 		51C60F1828B00DCB009AD9B9 /* KubSTU_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C60F1728B00DCB009AD9B9 /* KubSTU_iOSApp.swift */; };
 		51C60F1A28B00DCB009AD9B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C60F1928B00DCB009AD9B9 /* MainView.swift */; };
 		51C60F1C28B00DCB009AD9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C60F1B28B00DCB009AD9B9 /* Assets.xcassets */; };
@@ -18,10 +23,15 @@
 
 /* Begin PBXFileReference section */
 		1ED3613BBB51FAF214C11E5C /* Pods-KubSTU-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KubSTU-iOS.release.xcconfig"; path = "Target Support Files/Pods-KubSTU-iOS/Pods-KubSTU-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		513DDE5428B00E2D00D09559 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "KubSTU-iOS/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		5138EF3D28E4B3DB00941FC3 /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
+		5138EF3F28E57AA100941FC3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		513DDE5628B00E9700D09559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		51598ABB28E63E1900F18E0F /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		51598ABD28E63E3E00F18E0F /* FindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
+		51598ABF28E63E7C00F18E0F /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		51598AC128E63EAB00F18E0F /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		5179CFE028DDD2EB00573D5B /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		51A7E35028C4E28D00D7155B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		51AF1D0828E5AB1300FE18CB /* ScheduleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
 		51C60F1428B00DCB009AD9B9 /* КубГТУ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "КубГТУ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C60F1728B00DCB009AD9B9 /* KubSTU_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KubSTU_iOSApp.swift; sourceTree = "<group>"; };
 		51C60F1928B00DCB009AD9B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				51C60F1928B00DCB009AD9B9 /* MainView.swift */,
-				51A7E35028C4E28D00D7155B /* LoginView.swift */,
+				5138EF3D28E4B3DB00941FC3 /* testing.swift */,
+				51AF1D0828E5AB1300FE18CB /* ScheduleCardView.swift */,
+				51598ABB28E63E1900F18E0F /* NewsView.swift */,
+				51598ABD28E63E3E00F18E0F /* FindView.swift */,
+				51598ABF28E63E7C00F18E0F /* UserView.swift */,
+				51598AC128E63EAB00F18E0F /* ScheduleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,7 +109,7 @@
 		51C60F1D28B00DCB009AD9B9 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				513DDE5428B00E2D00D09559 /* LaunchScreen.storyboard */,
+				5138EF3F28E57AA100941FC3 /* Launch Screen.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -167,7 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513DDE5528B00E2D00D09559 /* LaunchScreen.storyboard in Resources */,
+				5138EF4028E57AA100941FC3 /* Launch Screen.storyboard in Resources */,
 				51C60F1C28B00DCB009AD9B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,9 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A7E35128C4E28D00D7155B /* LoginView.swift in Sources */,
 				5179CFE128DDD2EB00573D5B /* Enums.swift in Sources */,
 				51C60F1A28B00DCB009AD9B9 /* MainView.swift in Sources */,
+				5138EF3E28E4B3DB00941FC3 /* testing.swift in Sources */,
+				51598AC028E63E7C00F18E0F /* UserView.swift in Sources */,
+				51598ABE28E63E3E00F18E0F /* FindView.swift in Sources */,
+				51598AC228E63EAB00F18E0F /* ScheduleView.swift in Sources */,
+				51598ABC28E63E1900F18E0F /* NewsView.swift in Sources */,
+				51AF1D0928E5AB1300FE18CB /* ScheduleCardView.swift in Sources */,
 				51C60F1828B00DCB009AD9B9 /* KubSTU_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,16 +383,16 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.solovevruslan.KubSTU-iOS";
 				PRODUCT_NAME = "КубГТУ";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -402,16 +422,16 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.solovevruslan.KubSTU-iOS";
 				PRODUCT_NAME = "КубГТУ";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
