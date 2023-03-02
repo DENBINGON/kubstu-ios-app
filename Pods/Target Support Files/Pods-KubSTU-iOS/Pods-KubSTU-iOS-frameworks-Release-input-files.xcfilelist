@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-KubSTU-iOS/Pods-KubSTU-iOS-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/StepperView/StepperView.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

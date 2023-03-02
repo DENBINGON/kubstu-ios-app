@@ -6,90 +6,391 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4832893FECBC39703BE3E09931358624 /* YandexMobileAds */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80DEDCD72E84A29FF4B3D4D4A7FFCCF0 /* Build configuration list for PBXAggregateTarget "YandexMobileAds" */;
+			buildPhases = (
+				8DA9E8BF8C642491CAF13B1141C85A17 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				76A9FE24D4BB83EDFBCB7F4DC989762C /* PBXTargetDependency */,
+			);
+			name = YandexMobileAds;
+		};
+		4EC5D92270B93BDEAD9BF335B0985A5B /* YandexMobileAdsInstream */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C3C4115C7630C1BE312D926CC26751E /* Build configuration list for PBXAggregateTarget "YandexMobileAdsInstream" */;
+			buildPhases = (
+				C0E0844F3810F2E02CC8BFD91D5DCE84 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				A6F57B011AD5B54DFDA4D4843845CCE2 /* PBXTargetDependency */,
+			);
+			name = YandexMobileAdsInstream;
+		};
+		899318C1CEDE586664EC232A68069570 /* YandexMobileMetrica */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE55816F210974688A6F51D692FE1353 /* Build configuration list for PBXAggregateTarget "YandexMobileMetrica" */;
+			buildPhases = (
+				718D6E861837B5C3D0E4C126F55C02F0 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = YandexMobileMetrica;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1522D13E275E0A139895D78118959091 /* StepperView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E833B7F22AB7A3761D749D2911744 /* StepperView-dummy.m */; };
-		243DFAFAE563A050EA14FA07F0458559 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B8ED1F736E1CB3F427C3D840BF23B /* Utils.swift */; };
-		2A4549C0104E017FCF6DDFF5A41D7214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		30586637F034E3B31EB340A5D144DD72 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE9F694BB4E4DD8F20D4B1D02A310D /* EnvironmentValues+Extension.swift */; };
+		1522D13E275E0A139895D78118959091 /* StepperView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC2CB3B224ECB9D74B8D949039F43B2 /* StepperView-dummy.m */; };
+		243DFAFAE563A050EA14FA07F0458559 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC88F4BB9032C00EFFB845EEFBEC47 /* Utils.swift */; };
+		30586637F034E3B31EB340A5D144DD72 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8127D6A5CE27275934BE9A64B7E49ABA /* EnvironmentValues+Extension.swift */; };
+		325CCDB295FFA016638075B5D2CEDD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3880D8AA80BEAF1F6B8D016EEAAAA03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3A46D63A296CD4AC7AEA4602582C3AF7 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D1A24FCC9A00420AF5D059EAC50D3 /* StepperView.swift */; };
-		4AC2EE6F7078A6C4DC94719C6B270628 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E473CBDAE2DDE11460A07B4B7F1D028E /* View+Extensions.swift */; };
-		5E16F0846C6B444F679D6AC561732473 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC8FA0F8FA8050C6DC589A0364E980 /* Colors+Extension.swift */; };
-		6288C4E0AAA7663CDC4027E2668AD0AA /* NumberedCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0547EC23AB322BE8407CAA58D21FC57 /* NumberedCircleView.swift */; };
-		728FF78C0819C5C5F85D0C80B1E78422 /* HorizontalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4B1BB2F9F19A4D623603CF27B0153 /* HorizontalLineView.swift */; };
-		7489A739F787FE8A18D06276EF158EBA /* LoadingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381D06DBF6D4C784035764CC90CE37C /* LoadingTimer.swift */; };
-		76C3631EA29C6A18957CDD3F57B71109 /* StepIndicatorHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F4E9DC455A1FBDDC77524E496675A /* StepIndicatorHorizontalView.swift */; };
-		867E8D70540D61EA15A46830AFD16EB1 /* PitStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF0DBA719C83CECCAC9485DDA1EA6 /* PitStopView.swift */; };
-		8E41C0A3C9AC09496104C6747582E023 /* StepIndicatorVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448280F03DC3922EC131BB14B162E8DA /* StepIndicatorVerticalView.swift */; };
-		9FD8C5ED7514E9230CECDA29B152A262 /* PreferenceKey+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4FC5C95733F65105CD81CB612FC707 /* PreferenceKey+Extension.swift */; };
-		AC2813D25EB2C5AE6420C5D5A86F0F62 /* Pods-KubSTU-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A663BE2C7FD29D73D16FA963D0683286 /* Pods-KubSTU-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B099CFB62B727F0834D25722A30D3223 /* PitStopLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699DA74AC41994D09C6A109CB7BC048 /* PitStopLineView.swift */; };
-		B6374DDF8B35BE1CD8D10379C5117893 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170749E3656CE997339653DCB8E6D290 /* IndicatorView.swift */; };
-		C5958269E6D48941341FBAD98B887940 /* CircledIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F23CB472EE1781326245B146B48E2 /* CircledIconView.swift */; };
-		C6711B83F76531BF181B5550E0DE09ED /* Pods-KubSTU-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B9537E4ACC8E41BF7527F8612DB955 /* Pods-KubSTU-iOS-dummy.m */; };
-		E1D9713144E5193D155B5AB4D2651E19 /* VerticalAlignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9EEDD1A4DEB8485A6FD9578A6B26E7 /* VerticalAlignment+Extension.swift */; };
-		EE3CF08F4295099FFF618D2BCADC9C9B /* StepperView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B77B723F836D7CC083BDC108BC27238 /* StepperView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F41C6373B9ACF802C982D59BC3A39C07 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7483EB53E5800A98A13CCBCDA3B228 /* TextView.swift */; };
-		FC919098A5546DCA10EB49452C70E020 /* VerticalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81613480B298C07F7C55055334364E3C /* VerticalLineView.swift */; };
+		3A46D63A296CD4AC7AEA4602582C3AF7 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFE4A95D478E52319B3F3BD4C36DEA /* StepperView.swift */; };
+		4AB15F0F3EA6F7DF06CFDF96FED407BE /* Pods-KubSTU-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD5F1BE8E4EC99CE62D4E4F8DBFA94 /* Pods-KubSTU-iOS-dummy.m */; };
+		4AC2EE6F7078A6C4DC94719C6B270628 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BE20491F2B2C46C1A06633ECBFAAE0 /* View+Extensions.swift */; };
+		5E16F0846C6B444F679D6AC561732473 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0D60E3F8A4724FCAD00C9DE2E2CBF /* Colors+Extension.swift */; };
+		5FA526557719FDBE81B1974B113CF600 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C07CF8FD26DE92FA2B08379FA1EFAF /* SwiftyJSON-dummy.m */; };
+		6288C4E0AAA7663CDC4027E2668AD0AA /* NumberedCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7751609D6552D81DA843744E905CD39D /* NumberedCircleView.swift */; };
+		728FF78C0819C5C5F85D0C80B1E78422 /* HorizontalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB055E4348A37D18F32BF3926FE9EE /* HorizontalLineView.swift */; };
+		7489A739F787FE8A18D06276EF158EBA /* LoadingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81D5FCE8213418AE39D70D7E5583B1 /* LoadingTimer.swift */; };
+		76C3631EA29C6A18957CDD3F57B71109 /* StepIndicatorHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F25BEFE938E30D4F100865A269A3F5 /* StepIndicatorHorizontalView.swift */; };
+		79F200E90A64D09ED0760B8099123AC7 /* Pods-KubSTU-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3518FF95CDB2FFC064D69024C7B24006 /* Pods-KubSTU-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867E8D70540D61EA15A46830AFD16EB1 /* PitStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56233AEBEFA26B63D71F0F6754CAA59 /* PitStopView.swift */; };
+		8E41C0A3C9AC09496104C6747582E023 /* StepIndicatorVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1067598B8C8939437DD9A96ED2958EDA /* StepIndicatorVerticalView.swift */; };
+		9FD8C5ED7514E9230CECDA29B152A262 /* PreferenceKey+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2914E228CE6CE762E54BE8F790DF1EE /* PreferenceKey+Extension.swift */; };
+		A115142039C23F91827E6961CC479F05 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AABDD05D0129BD355EDA700C6EEAD82 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C21A98DC167FCB334D36C5E0C8773F5 /* SwiftyJSON.swift */; };
+		B099CFB62B727F0834D25722A30D3223 /* PitStopLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F76F59CF5A0DEAE8837F370EA519C /* PitStopLineView.swift */; };
+		B4111218D0974781E5AB599FBFF24B87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B6374DDF8B35BE1CD8D10379C5117893 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9202C8F9B472720FC105B39112C7A6 /* IndicatorView.swift */; };
+		C5958269E6D48941341FBAD98B887940 /* CircledIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A6E956D488BA780DE1A4ABFF9FFAC /* CircledIconView.swift */; };
+		E1D9713144E5193D155B5AB4D2651E19 /* VerticalAlignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C889D3C389D2E02E82907AA49B35A6D /* VerticalAlignment+Extension.swift */; };
+		EE3CF08F4295099FFF618D2BCADC9C9B /* StepperView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FED0B7A85D1563DAFE7DD93301F6EC /* StepperView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41C6373B9ACF802C982D59BC3A39C07 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3169E10AAEA384C8759E8A789CEA0 /* TextView.swift */; };
+		FC919098A5546DCA10EB49452C70E020 /* VerticalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB75BF4B7134C17D8A6BF6B26A7340C /* VerticalLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8078CC42B1175E10AC533F89EDD1CA3 /* PBXContainerItemProxy */ = {
+		0388D5AAE95A59E7C050CB94BE6B93BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC5D92270B93BDEAD9BF335B0985A5B;
+			remoteInfo = YandexMobileAdsInstream;
+		};
+		4900DBCA00A302DBEF6C2A1643ED390B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 168A52CD2EC5A2263BAF15EFF9FB166E;
 			remoteInfo = StepperView;
 		};
+		B132E19E45A3330CF8BB90F5A4B97B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4832893FECBC39703BE3E09931358624;
+			remoteInfo = YandexMobileAds;
+		};
+		B1CCDECF4C89A8A01645B0FC7AE8D6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899318C1CEDE586664EC232A68069570;
+			remoteInfo = YandexMobileMetrica;
+		};
+		BB248093FCA36405F7F40BF94BBF8C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899318C1CEDE586664EC232A68069570;
+			remoteInfo = YandexMobileMetrica;
+		};
+		EB90F058DC2ADCB2DC953AC4D37DFFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4832893FECBC39703BE3E09931358624;
+			remoteInfo = YandexMobileAds;
+		};
+		F8C404027C2A28E89CD065140F09953F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00EE9F694BB4E4DD8F20D4B1D02A310D /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EnvironmentValues+Extension.swift"; path = "Sources/StepperView/Extension/EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
-		090B8ED1F736E1CB3F427C3D840BF23B /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/StepperView/Utils/Utils.swift; sourceTree = "<group>"; };
-		0B4E833B7F22AB7A3761D749D2911744 /* StepperView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StepperView-dummy.m"; sourceTree = "<group>"; };
-		0B76BC7D0C2C3FA2DB609CE53D5C0C37 /* StepperView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StepperView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DEC8FA0F8FA8050C6DC589A0364E980 /* Colors+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Colors+Extension.swift"; path = "Sources/StepperView/Extension/Colors+Extension.swift"; sourceTree = "<group>"; };
-		0F9EEDD1A4DEB8485A6FD9578A6B26E7 /* VerticalAlignment+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VerticalAlignment+Extension.swift"; path = "Sources/StepperView/Extension/VerticalAlignment+Extension.swift"; sourceTree = "<group>"; };
-		12BC4C49F8A7042EE9EC21AA193A5CD9 /* StepperView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepperView.debug.xcconfig; sourceTree = "<group>"; };
-		170749E3656CE997339653DCB8E6D290 /* IndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorView.swift; path = Sources/StepperView/Views/Indicators/IndicatorView.swift; sourceTree = "<group>"; };
-		270D1A24FCC9A00420AF5D059EAC50D3 /* StepperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperView.swift; path = Sources/StepperView/Views/StepperView.swift; sourceTree = "<group>"; };
-		281628D8EED67F8A3345EC1A40E693BB /* StepperView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StepperView-Info.plist"; sourceTree = "<group>"; };
-		2E0F4E9DC455A1FBDDC77524E496675A /* StepIndicatorHorizontalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepIndicatorHorizontalView.swift; path = Sources/StepperView/Views/StepIndicatorHorizontalView.swift; sourceTree = "<group>"; };
-		2F7483EB53E5800A98A13CCBCDA3B228 /* TextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = Sources/StepperView/Views/Components/TextView.swift; sourceTree = "<group>"; };
-		354C71E0D37B4BF9881658F949485EF6 /* Pods-KubSTU-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KubSTU-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		3E0CF0DBA719C83CECCAC9485DDA1EA6 /* PitStopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitStopView.swift; path = Sources/StepperView/Views/PitStopView.swift; sourceTree = "<group>"; };
-		448280F03DC3922EC131BB14B162E8DA /* StepIndicatorVerticalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepIndicatorVerticalView.swift; path = Sources/StepperView/Views/StepIndicatorVerticalView.swift; sourceTree = "<group>"; };
-		44B9537E4ACC8E41BF7527F8612DB955 /* Pods-KubSTU-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KubSTU-iOS-dummy.m"; sourceTree = "<group>"; };
-		53FF5E1FA87322B4031D8D6E78EE1F1C /* StepperView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StepperView.modulemap; sourceTree = "<group>"; };
-		69D745CB460FC7C2EDB163BE2D2F15DA /* StepperView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepperView.release.xcconfig; sourceTree = "<group>"; };
+		0260BC3115C3D025CE5651CB4090137E /* YMMVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMVersion.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMVersion.h"; sourceTree = "<group>"; };
+		09E3E44676529F0C463E957BE10F739D /* YMMYandexMetricaReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaReporting.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaReporting.h"; sourceTree = "<group>"; };
+		0B76BC7D0C2C3FA2DB609CE53D5C0C37 /* StepperView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StepperView; path = StepperView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDF1549F9B6B71DAD5615137DAE8A49 /* YMMYandexMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetrica.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetrica.h"; sourceTree = "<group>"; };
+		0C00CAE64DB5725DFFA684F997DC12B6 /* YMAAudioSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAudioSessionManager.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAAudioSessionManager.h"; sourceTree = "<group>"; };
+		0CD34BF4CAC92F87C2132B78E116E06C /* YMANativeAdType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdType.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdType.h"; sourceTree = "<group>"; };
+		0F7037159BCA7E8C08AC2214F3AC1D3E /* YMMProfileAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMProfileAttribute.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMProfileAttribute.h"; sourceTree = "<group>"; };
+		0F81D5FCE8213418AE39D70D7E5583B1 /* LoadingTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingTimer.swift; path = Sources/StepperView/Utils/LoadingTimer.swift; sourceTree = "<group>"; };
+		0FA45CBCA5AEF59E0A00FD98B06C1908 /* YMMYandexMetricaPluginReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPluginReporting.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPluginReporting.h"; sourceTree = "<group>"; };
+		104F6C78CEDA104B9CB3FFED7869B725 /* YMANativeImageLoadingObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeImageLoadingObserver.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeImageLoadingObserver.h"; sourceTree = "<group>"; };
+		1067598B8C8939437DD9A96ED2958EDA /* StepIndicatorVerticalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepIndicatorVerticalView.swift; path = Sources/StepperView/Views/StepIndicatorVerticalView.swift; sourceTree = "<group>"; };
+		11731CC040D11AF1226F306CB9912FEF /* YMMYandexMetricaReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaReporting.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaReporting.h"; sourceTree = "<group>"; };
+		133376742DEF3DF4D96975ED7807B619 /* YMAErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAErrors.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAErrors.h"; sourceTree = "<group>"; };
+		13BB4F0072F517DE60CE85F969A50EFD /* YMMYandexMetricaReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaReporting.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaReporting.h"; sourceTree = "<group>"; };
+		14CD790ACE82805E578B73E335D5C915 /* YMMYandexMetricaPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPlugins.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPlugins.h"; sourceTree = "<group>"; };
+		1532DED1F729263D3521603265B9B1BD /* YMMECommerce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMECommerce.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMECommerce.h"; sourceTree = "<group>"; };
+		1554632BF59CC63AF81CD91203B0DA3F /* Pods-KubSTU-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KubSTU-iOS-Info.plist"; sourceTree = "<group>"; };
+		157F5EF723DE3EB55F3BDAB5F11FBDB5 /* YMAReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAReward.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAReward.h"; sourceTree = "<group>"; };
+		16518B7690DA3895C9818255E19C4A5A /* YMMAdRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMAdRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMAdRevenueInfo.h"; sourceTree = "<group>"; };
+		16BC5AF979509F31EDBAC08C1A9B0E9A /* YMMVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMVersion.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMVersion.h"; sourceTree = "<group>"; };
+		16E4E947F7C3DE2569735FA817A15CAE /* YMMCompletionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMCompletionBlocks.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMCompletionBlocks.h"; sourceTree = "<group>"; };
+		18E2EF37CDC98052E663E079DE8E72FC /* YMANativeVideoControlsCustomizable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoControlsCustomizable.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeVideoControlsCustomizable.h"; sourceTree = "<group>"; };
+		19B03194959F123BE517CFAF866FD3F8 /* YMANativeSliderViewBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeSliderViewBinder.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeSliderViewBinder.h"; sourceTree = "<group>"; };
+		1A6552C5C42B1A50796F10FA32ABDBEB /* YMMYandexMetricaPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPlugins.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPlugins.h"; sourceTree = "<group>"; };
+		1AABDD05D0129BD355EDA700C6EEAD82 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		1BC5465731A261FAE95890D69A9CC1DE /* YMMPluginErrorDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMPluginErrorDetails.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMPluginErrorDetails.h"; sourceTree = "<group>"; };
+		1CE05F0F3009455313179555157B263C /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		1CFC0DD3F3B63547A169E38B08244D40 /* YMANativeMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeMediaView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeMediaView.h"; sourceTree = "<group>"; };
+		1DE33DF0ED54866D9228C167154A27D6 /* YMANativeSliderViewBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeSliderViewBinder.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeSliderViewBinder.h"; sourceTree = "<group>"; };
+		21E7086004B071B447EE11322C137BA0 /* YMAAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdSize.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAAdSize.h"; sourceTree = "<group>"; };
+		21ED626DB04BF48FC969205C7A4CC3F5 /* StepperView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepperView-prefix.pch"; sourceTree = "<group>"; };
+		22C05C87792A696CFF68E44CD3944241 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		23A6D6B2BD0FCA5E75F66F8434939F45 /* YMANativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdView.h"; sourceTree = "<group>"; };
+		23E17D5F3543135BFAB061441B5A5B0B /* StepperView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StepperView.modulemap; sourceTree = "<group>"; };
+		25A4981DA82F8B31625A1E6B9CDAF53C /* YMANativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAd.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAd.h"; sourceTree = "<group>"; };
+		26E7299F63F3CE8FDB4FF9EC16752D71 /* YMANativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdDelegate.h"; sourceTree = "<group>"; };
+		2719B5DDE2FD95560BE1DDA1227FC50E /* YMANativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdView.h"; sourceTree = "<group>"; };
+		27FB055E4348A37D18F32BF3926FE9EE /* HorizontalLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalLineView.swift; path = Sources/StepperView/Views/Lines/HorizontalLineView.swift; sourceTree = "<group>"; };
+		284B55F3CB11C480CA144432815BEE26 /* YMABidderTokenLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMABidderTokenLoader.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMABidderTokenLoader.h"; sourceTree = "<group>"; };
+		28E7DE4519139110E99A4F5220D9CF8D /* YandexMobileAds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAds-umbrella.h"; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YandexMobileAds-umbrella.h"; sourceTree = "<group>"; };
+		2AC82485DF38F45C562F33BE056CECA2 /* YMMVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMVersion.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMVersion.h"; sourceTree = "<group>"; };
+		2B5A1F0BC40AC3830E0E1C2F1BF09879 /* YMMPluginErrorDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMPluginErrorDetails.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMPluginErrorDetails.h"; sourceTree = "<group>"; };
+		2C030DB6922531D6A026FEB4E9BF9E3B /* YMANativeVideoControlsCustomizable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoControlsCustomizable.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeVideoControlsCustomizable.h"; sourceTree = "<group>"; };
+		2F254F6C5AD430A2798900E2E4B5838F /* YandexMobileAdsInstreamVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileAdsInstreamVersion.h; path = "YandexMobileAdsInstream.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAdsInstream.framework/Headers/YandexMobileAdsInstreamVersion.h"; sourceTree = "<group>"; };
+		30E6F0EC9F7B708C5496535D89B10365 /* YMMYandexMetricaPluginReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPluginReporting.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPluginReporting.h"; sourceTree = "<group>"; };
+		3322487E616D148EB9281AB8F4153027 /* YandexMobileMetrica.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YandexMobileMetrica.xcframework; path = static/YandexMobileMetrica.xcframework; sourceTree = "<group>"; };
+		34A82B6814CCB27EDB44CF7FE97D59EF /* YandexMobileAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMobileAds.debug.xcconfig; sourceTree = "<group>"; };
+		34CBA66A1391FDFF0C265691FCA86265 /* YMMStackTraceElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMStackTraceElement.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMStackTraceElement.h"; sourceTree = "<group>"; };
+		3518FF95CDB2FFC064D69024C7B24006 /* Pods-KubSTU-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KubSTU-iOS-umbrella.h"; sourceTree = "<group>"; };
+		36BE20491F2B2C46C1A06633ECBFAAE0 /* View+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Extensions.swift"; path = "Sources/StepperView/Extension/View+Extensions.swift"; sourceTree = "<group>"; };
+		3A47232662A8CF409B83244ACBF037F5 /* YMARewardedAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMARewardedAd.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMARewardedAd.h"; sourceTree = "<group>"; };
+		3AB93D620527A451A8FE91DC7DB2F5D8 /* YMMStackTraceElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMStackTraceElement.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMStackTraceElement.h"; sourceTree = "<group>"; };
+		3B2433E28E88305CB7A0C057901E368F /* YandexMobileMetricaCrashes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetricaCrashes-umbrella.h"; path = "static/YandexMobileMetricaCrashes.xcframework/tvos-arm64/YandexMobileMetricaCrashes.framework/Versions/A/Headers/YandexMobileMetricaCrashes-umbrella.h"; sourceTree = "<group>"; };
+		3B521C5365BA1F47EA823D9C2F84E7E6 /* YandexMobileAds-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAds-Swift.h"; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YandexMobileAds-Swift.h"; sourceTree = "<group>"; };
+		3C6EB71BB0827A357E1FA1707E2DB821 /* YMANativeBulkAdLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBulkAdLoader.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeBulkAdLoader.h"; sourceTree = "<group>"; };
+		3D8D0BFF48AB2C15BD61058081C9C4B5 /* YandexMobileMetrica-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YandexMobileMetrica-xcframeworks.sh"; sourceTree = "<group>"; };
+		3E40D7C584987870D18AF4BFFE36C2AE /* YMANativeAdVideoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdVideoController.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdVideoController.h"; sourceTree = "<group>"; };
+		3F059A8D29DAADA5D7D8D5675B119F98 /* YMMAdRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMAdRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMAdRevenueInfo.h"; sourceTree = "<group>"; };
+		3F2F0A1D5A0740263DA220A55F6FD678 /* YMMYandexMetricaPreloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPreloadInfo.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPreloadInfo.h"; sourceTree = "<group>"; };
+		403AE3758D871FEDE6BF188366EB2253 /* YMMYandexMetricaPreloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPreloadInfo.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPreloadInfo.h"; sourceTree = "<group>"; };
+		404E7DCB527FFF22658D4227E356C001 /* YMARating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMARating.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMARating.h"; sourceTree = "<group>"; };
+		442944FAA22EBA2324042A188DC63D91 /* YMAVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVersion.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAVersion.h"; sourceTree = "<group>"; };
+		444053DBD101F467DFACA787C737BCF4 /* YMAMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAMobileAds.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAMobileAds.h"; sourceTree = "<group>"; };
+		44B85CD4ED5451C67CBB769FAF332E39 /* YMMYandexMetricaPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPlugins.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPlugins.h"; sourceTree = "<group>"; };
+		49080DA63FCDF61FBE887A10DF86A5F2 /* YMANativeVideoPlaybackProgressControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackProgressControl.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackProgressControl.h"; sourceTree = "<group>"; };
+		4946CF96AD42CEA36BF671978ECA49EB /* YMANativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAd.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAd.h"; sourceTree = "<group>"; };
+		4973F8AFE01899F58F9AC31C51974846 /* Pods-KubSTU-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KubSTU-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4A7D4BDF5492298D5E1BB48F2674DE41 /* YMMECommerce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMECommerce.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMECommerce.h"; sourceTree = "<group>"; };
+		4A7DD278E51EDE7C8B6FA12095D20F06 /* YMAAudioSessionManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAudioSessionManagerDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAAudioSessionManagerDelegate.h"; sourceTree = "<group>"; };
+		4B3EC2187BDDF728C31BC90A96E33738 /* YandexMobileAds-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAds-Swift.h"; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YandexMobileAds-Swift.h"; sourceTree = "<group>"; };
+		4C120903F2DFAA12CFF4537C7F7800B5 /* YandexMobileNativeAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileNativeAds.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YandexMobileNativeAds.h"; sourceTree = "<group>"; };
+		4C21A98DC167FCB334D36C5E0C8773F5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		4CDE17C9AFD3C3E43CFA7B7689323673 /* YMMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMError.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMError.h"; sourceTree = "<group>"; };
+		4DEF9A264D7C7724CD8C9CFD0D9E101D /* YMANativeSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeSliderView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeSliderView.h"; sourceTree = "<group>"; };
+		4E647DAD00B424AFCADB4F9185038D9A /* YMANativeAdVideoControllerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdVideoControllerProvider.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdVideoControllerProvider.h"; sourceTree = "<group>"; };
+		4FF3B2597B842D84453DA4CAD61BE55F /* YMANativeTemplateAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeTemplateAppearance.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeTemplateAppearance.h"; sourceTree = "<group>"; };
+		50BD2080029ADC91FD707EE7C085EC3B /* YMMCompletionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMCompletionBlocks.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMCompletionBlocks.h"; sourceTree = "<group>"; };
+		511A61088E697BC4BC6F2A8EBDF8C260 /* YandexMobileMetrica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetrica-umbrella.h"; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica-umbrella.h"; sourceTree = "<group>"; };
+		51469FB0199E8960C50BB937A6E4A46E /* Pods-KubSTU-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KubSTU-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		51EAFB3EADB113724119BFD9931BBAC1 /* YMAAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAAdView.h"; sourceTree = "<group>"; };
+		52FED0B7A85D1563DAFE7DD93301F6EC /* StepperView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepperView-umbrella.h"; sourceTree = "<group>"; };
+		54AA1CEEA4B5D128550D942DC71AD884 /* YMAGender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAGender.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAGender.h"; sourceTree = "<group>"; };
+		54BADE692697A6A944979D8FC3D07DC3 /* YMANativeVideoPlaybackControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackControls.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackControls.h"; sourceTree = "<group>"; };
+		55430F863BC192ED8C672648468289A0 /* YandexMobileMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileMetrica.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica.h"; sourceTree = "<group>"; };
+		5C9F7326201F68A51ECACC74E69E2E45 /* YMMYandexMetricaPluginReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPluginReporting.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPluginReporting.h"; sourceTree = "<group>"; };
+		5CF21B5CE618422F6E37019AA1BE86CD /* YandexMobileAdsInstream.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = YandexMobileAdsInstream.xcframework; sourceTree = "<group>"; };
+		5D39D20758704A9F1EBA5652E22203DF /* YMMYandexMetricaPluginReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPluginReporting.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPluginReporting.h"; sourceTree = "<group>"; };
+		5EB75BF4B7134C17D8A6BF6B26A7340C /* VerticalLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalLineView.swift; path = Sources/StepperView/Views/Lines/VerticalLineView.swift; sourceTree = "<group>"; };
+		61940DD9976C208531D04FB6D2A0DE72 /* YMMRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMRevenueInfo.h"; sourceTree = "<group>"; };
+		61D6940AB847E9E1A512265A31A25C65 /* YMAVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVideoDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAVideoDelegate.h"; sourceTree = "<group>"; };
+		63D31C941CAE90FB349167C931083307 /* YandexMobileMetrica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetrica-umbrella.h"; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica-umbrella.h"; sourceTree = "<group>"; };
+		63DD30FD27E4594267A01A0F37DD1412 /* YMANativeMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeMediaView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeMediaView.h"; sourceTree = "<group>"; };
+		63FE76467C75B813433BCAB73A736FD4 /* YMANativeAdRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdRequestConfiguration.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdRequestConfiguration.h"; sourceTree = "<group>"; };
+		66096835E9DA17CA8D94274A2909E3D6 /* YMANativeVideoPlaybackMuteControlDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackMuteControlDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackMuteControlDelegate.h"; sourceTree = "<group>"; };
+		692E7A85ADDAF53BD232D1E8FCFD556D /* YandexMobileMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileMetrica.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica.h"; sourceTree = "<group>"; };
+		6B584F0C8E6FD5E476171E098531A21B /* YMMYandexMetricaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaConfiguration.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaConfiguration.h"; sourceTree = "<group>"; };
+		6BEDFD95395A739CD3A33710EEC85C56 /* YMAErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAErrors.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAErrors.h"; sourceTree = "<group>"; };
+		6D4E6C4896FEAB401C2B290C8949023C /* YandexMobileAdsInstream-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YandexMobileAdsInstream-xcframeworks.sh"; sourceTree = "<group>"; };
+		720DA58C2BE6628C26E6C1529472C57B /* YMANativeVideoPlaybackProgressControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackProgressControl.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackProgressControl.h"; sourceTree = "<group>"; };
+		720F7AA7D35381DC565C70D1061EAA23 /* YMANativeAdVideoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdVideoController.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdVideoController.h"; sourceTree = "<group>"; };
+		729751086455067975B8A2E9B17026D8 /* YMMYandexMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetrica.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetrica.h"; sourceTree = "<group>"; };
+		72DD8B223AB0480C64E783938782AE12 /* YMANativeAssetsAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAssetsAppearance.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAssetsAppearance.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B77B723F836D7CC083BDC108BC27238 /* StepperView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepperView-umbrella.h"; sourceTree = "<group>"; };
-		81613480B298C07F7C55055334364E3C /* VerticalLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalLineView.swift; path = Sources/StepperView/Views/Lines/VerticalLineView.swift; sourceTree = "<group>"; };
+		73EF1982F7CF5B7196A6DB878698F149 /* YMMYandexMetricaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaConfiguration.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaConfiguration.h"; sourceTree = "<group>"; };
+		763F22E56203628C499C4118EC1193B6 /* YandexMobileAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMobileAds.release.xcconfig; sourceTree = "<group>"; };
+		77341B62A23BE59AD26C532A066A1CBD /* YMANativeAdErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdErrors.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdErrors.h"; sourceTree = "<group>"; };
+		7736CD9C00A0F31C13607612EB31E8F4 /* YMMRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMRevenueInfo.h"; sourceTree = "<group>"; };
+		7751609D6552D81DA843744E905CD39D /* NumberedCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberedCircleView.swift; path = Sources/StepperView/Views/Indicators/NumberedCircleView.swift; sourceTree = "<group>"; };
+		77DE9E90F30C7F0B034A9F05C7ECF665 /* YandexMobileNativeAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileNativeAds.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YandexMobileNativeAds.h"; sourceTree = "<group>"; };
+		78B74ED7443929A314893211FB08D475 /* YandexMobileAds-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YandexMobileAds-xcframeworks.sh"; sourceTree = "<group>"; };
+		78E0EA9C01AB2DFE33EF776731D6B891 /* YMAAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdRequest.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAAdRequest.h"; sourceTree = "<group>"; };
+		7A211AA2E65B7154BC5CA6E016FF15C3 /* YandexMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileAds.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YandexMobileAds.h"; sourceTree = "<group>"; };
+		7AA7673FCD174989FCA97E9D4067B5A7 /* YMMErrorRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMErrorRepresentable.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMErrorRepresentable.h"; sourceTree = "<group>"; };
+		7C6108CD337DFD8E75A248C4200D20FA /* YMAGender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAGender.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAGender.h"; sourceTree = "<group>"; };
+		7C889D3C389D2E02E82907AA49B35A6D /* VerticalAlignment+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VerticalAlignment+Extension.swift"; path = "Sources/StepperView/Extension/VerticalAlignment+Extension.swift"; sourceTree = "<group>"; };
+		7D946A127B99DE85851CA25CACD9C847 /* YMANativeAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdImage.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdImage.h"; sourceTree = "<group>"; };
+		7DD70F082530392944140881AC54AEEE /* YMANativeBulkAdLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBulkAdLoader.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeBulkAdLoader.h"; sourceTree = "<group>"; };
+		7DDF52A665566495BACA806FAB3D60DB /* YMMYandexMetricaReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaReporting.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaReporting.h"; sourceTree = "<group>"; };
+		7E02DE5F0395246059C1FC93571671FA /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		7E938FC1B2821502A6D601DB54F9B7E0 /* YMANativeAssetsAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAssetsAppearance.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAssetsAppearance.h"; sourceTree = "<group>"; };
+		7FCC88F4BB9032C00EFFB845EEFBEC47 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/StepperView/Utils/Utils.swift; sourceTree = "<group>"; };
+		7FE91D9428E24A7411D3A1ACCA3D2AF1 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		7FFF0A1A3B7935C731FAB95FD7F6500B /* YMANativeVideoPlaybackMuteControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackMuteControl.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackMuteControl.h"; sourceTree = "<group>"; };
+		80237FA17F60E1F375A4BCBD9599EADF /* Pods-KubSTU-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KubSTU-iOS-resources.sh"; sourceTree = "<group>"; };
+		802487D95F3D3B7F5017030EAE959768 /* YMAInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAInterstitialAd.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAInterstitialAd.h"; sourceTree = "<group>"; };
+		81068BB672F484B23FCBF1F5BCA9875D /* YMMErrorRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMErrorRepresentable.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMErrorRepresentable.h"; sourceTree = "<group>"; };
+		8127D6A5CE27275934BE9A64B7E49ABA /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EnvironmentValues+Extension.swift"; path = "Sources/StepperView/Extension/EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
+		82602894799238B9EEABB3F0B8E5B164 /* Pods-KubSTU-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KubSTU-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		833A2A66BDF32E99F3B2434FA8A55011 /* Pods-KubSTU-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KubSTU-iOS"; path = Pods_KubSTU_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C65ECE9FFE03F6B91B453A05816B2C /* Pods-KubSTU-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KubSTU-iOS-Info.plist"; sourceTree = "<group>"; };
-		879F23CB472EE1781326245B146B48E2 /* CircledIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircledIconView.swift; path = Sources/StepperView/Views/Indicators/CircledIconView.swift; sourceTree = "<group>"; };
-		8D3825DC86881C5F8EB5483C6B36EFA0 /* StepperView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StepperView-prefix.pch"; sourceTree = "<group>"; };
-		8D6CE35CA0DEA1180939F10D5A457EE6 /* Pods-KubSTU-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KubSTU-iOS-frameworks.sh"; sourceTree = "<group>"; };
-		98F717892E958F3DC47FDECBD8CD95D4 /* Pods-KubSTU-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KubSTU-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A663BE2C7FD29D73D16FA963D0683286 /* Pods-KubSTU-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KubSTU-iOS-umbrella.h"; sourceTree = "<group>"; };
-		AA4FC5C95733F65105CD81CB612FC707 /* PreferenceKey+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PreferenceKey+Extension.swift"; path = "Sources/StepperView/Extension/PreferenceKey+Extension.swift"; sourceTree = "<group>"; };
-		C0547EC23AB322BE8407CAA58D21FC57 /* NumberedCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberedCircleView.swift; path = Sources/StepperView/Views/Indicators/NumberedCircleView.swift; sourceTree = "<group>"; };
-		C2D390306FF2BC674919358A82350E4A /* Pods-KubSTU-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KubSTU-iOS.modulemap"; sourceTree = "<group>"; };
-		C381D06DBF6D4C784035764CC90CE37C /* LoadingTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingTimer.swift; path = Sources/StepperView/Utils/LoadingTimer.swift; sourceTree = "<group>"; };
-		DAE4B1BB2F9F19A4D623603CF27B0153 /* HorizontalLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalLineView.swift; path = Sources/StepperView/Views/Lines/HorizontalLineView.swift; sourceTree = "<group>"; };
-		E0EB446B797E79341B9F75323AD94867 /* Pods-KubSTU-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KubSTU-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		E473CBDAE2DDE11460A07B4B7F1D028E /* View+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Extensions.swift"; path = "Sources/StepperView/Extension/View+Extensions.swift"; sourceTree = "<group>"; };
-		F699DA74AC41994D09C6A109CB7BC048 /* PitStopLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitStopLineView.swift; path = Sources/StepperView/Views/Lines/PitStopLineView.swift; sourceTree = "<group>"; };
-		FFF002D08C9FF2181522CD71D48A1BBA /* Pods-KubSTU-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KubSTU-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		840F76F59CF5A0DEAE8837F370EA519C /* PitStopLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitStopLineView.swift; path = Sources/StepperView/Views/Lines/PitStopLineView.swift; sourceTree = "<group>"; };
+		85241C6420335335E3B0DBC796D54653 /* Pods-KubSTU-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KubSTU-iOS.modulemap"; sourceTree = "<group>"; };
+		85F25BEFE938E30D4F100865A269A3F5 /* StepIndicatorHorizontalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepIndicatorHorizontalView.swift; path = Sources/StepperView/Views/StepIndicatorHorizontalView.swift; sourceTree = "<group>"; };
+		86BA34420E4C028AE5F8B842FE870D2C /* YMANativeBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBannerView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeBannerView.h"; sourceTree = "<group>"; };
+		883BA074E2E9B0DE56F1B4B77B17D63E /* YMAImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAImpressionData.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAImpressionData.h"; sourceTree = "<group>"; };
+		88853BAEC933E8BA46E330EA749F3BA3 /* YandexMobileMetricaCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YandexMobileMetricaCrashes.xcframework; path = static/YandexMobileMetricaCrashes.xcframework; sourceTree = "<group>"; };
+		89B706D33E44561F1540481FE63AA66D /* YandexMobileMetrica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMobileMetrica.debug.xcconfig; sourceTree = "<group>"; };
+		8B36BE52D2F3265A18C2521A82E8E55D /* YMMUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMUserProfile.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMUserProfile.h"; sourceTree = "<group>"; };
+		8B9D58A7B110091F05EA2360D6A1854E /* YMAReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAReward.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAReward.h"; sourceTree = "<group>"; };
+		8C8E49EEDE8CFFBBA2C1C805733E19AF /* YMANativeAdLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdLoader.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdLoader.h"; sourceTree = "<group>"; };
+		8D9202C8F9B472720FC105B39112C7A6 /* IndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorView.swift; path = Sources/StepperView/Views/Indicators/IndicatorView.swift; sourceTree = "<group>"; };
+		8EEAA63C4B59F0229DB4A8BBE1B38A19 /* YMMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMError.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMError.h"; sourceTree = "<group>"; };
+		8EF2932524460D2805C49CDD6F8BB30B /* YMANativeAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdImage.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdImage.h"; sourceTree = "<group>"; };
+		8FB5DCA5E729CB2B7E38C8E0B816482F /* StepperView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepperView.debug.xcconfig; sourceTree = "<group>"; };
+		8FDDE739CBEDCE4D3AA1521296438676 /* YMAVideoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVideoController.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAVideoController.h"; sourceTree = "<group>"; };
+		905C6FDB139CA15BF176204673052A97 /* YMMAdRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMAdRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMAdRevenueInfo.h"; sourceTree = "<group>"; };
+		9069901292335C20D8660BDDECDA0628 /* YMANativeImageLoadingObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeImageLoadingObserver.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeImageLoadingObserver.h"; sourceTree = "<group>"; };
+		92F07B61CE99D54C2C14879A6E8893D7 /* YMMECommerce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMECommerce.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMECommerce.h"; sourceTree = "<group>"; };
+		945A87164C3AA26FBD1A42D81D448A26 /* YMAVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVideoDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAVideoDelegate.h"; sourceTree = "<group>"; };
+		94614B6580D136603B1D82A56E44178D /* YMMProfileAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMProfileAttribute.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMProfileAttribute.h"; sourceTree = "<group>"; };
+		98484CAFB479122C04514B37EC305DF1 /* YMARating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMARating.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMARating.h"; sourceTree = "<group>"; };
+		99471F8981FC987C950C5A68239AF3CF /* YMAMutableNativeAdRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAMutableNativeAdRequestConfiguration.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAMutableNativeAdRequestConfiguration.h"; sourceTree = "<group>"; };
+		9BF53135378225AB04B521C6FA6295F0 /* YMANativeBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBannerView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeBannerView.h"; sourceTree = "<group>"; };
+		9CCC613B64B0B9506E9384A15A03BDC0 /* YMAMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAMobileAds.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAMobileAds.h"; sourceTree = "<group>"; };
+		9CD4061B8D6B14348C613F3C98B439E7 /* YMADeviceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMADeviceTypes.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMADeviceTypes.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC7D7C4629F096751CA1D1EE822DCE0 /* YMMStackTraceElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMStackTraceElement.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMStackTraceElement.h"; sourceTree = "<group>"; };
+		9EBEEAD875B25CABFDFFEB14D88E736A /* YMMYandexMetricaPreloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPreloadInfo.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPreloadInfo.h"; sourceTree = "<group>"; };
+		A41359A88545E865F6B041D9B53E4532 /* YMMPluginErrorDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMPluginErrorDetails.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMPluginErrorDetails.h"; sourceTree = "<group>"; };
+		A684FC8575F489D8FF8937FE3EAEEBCF /* YMAInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAInterstitialAd.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAInterstitialAd.h"; sourceTree = "<group>"; };
+		A6D4EA374E4AC4BAEA3FAE324BE4CA1C /* YMMVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMVersion.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMVersion.h"; sourceTree = "<group>"; };
+		A7F3169E10AAEA384C8759E8A789CEA0 /* TextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = Sources/StepperView/Views/Components/TextView.swift; sourceTree = "<group>"; };
+		A828FC0A37C28909F4FDB0B31156A944 /* YMANativeAdMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdMedia.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdMedia.h"; sourceTree = "<group>"; };
+		A83F1EEBEDCD887BDCFA7B7187497304 /* YMANativeAdErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdErrors.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdErrors.h"; sourceTree = "<group>"; };
+		A8991F04C32B933B7FB0E95E75930B5F /* YandexMobileAdsInstream-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAdsInstream-Swift.h"; path = "YandexMobileAdsInstream.xcframework/ios-arm64_armv7/YandexMobileAdsInstream.framework/Headers/YandexMobileAdsInstream-Swift.h"; sourceTree = "<group>"; };
+		A8D0D60E3F8A4724FCAD00C9DE2E2CBF /* Colors+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Colors+Extension.swift"; path = "Sources/StepperView/Extension/Colors+Extension.swift"; sourceTree = "<group>"; };
+		AD631F20F85ABDD62E89FF764543EF34 /* YandexMobileMetrica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetrica-umbrella.h"; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica-umbrella.h"; sourceTree = "<group>"; };
+		AE40AF2E1230A87B92AF700BBF0304C8 /* YMMRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMRevenueInfo.h"; sourceTree = "<group>"; };
+		AFCD5F1BE8E4EC99CE62D4E4F8DBFA94 /* Pods-KubSTU-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KubSTU-iOS-dummy.m"; sourceTree = "<group>"; };
+		AFD85D592A22EC6145BA6F0324EDD178 /* YMMReporterConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMReporterConfiguration.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMReporterConfiguration.h"; sourceTree = "<group>"; };
+		B047877AD15F5621D8E09620C9820594 /* YMARewardedAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMARewardedAd.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMARewardedAd.h"; sourceTree = "<group>"; };
+		B0FEDED8CA6B5E77ECEB699AD43929AB /* YandexMobileAds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAds-umbrella.h"; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YandexMobileAds-umbrella.h"; sourceTree = "<group>"; };
+		B10119F91477BEB434A234944ADCDD46 /* YMMErrorRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMErrorRepresentable.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMErrorRepresentable.h"; sourceTree = "<group>"; };
+		B17118D47DAACA26513C394AE8A01AD7 /* YMAAudioSessionManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAudioSessionManagerDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAAudioSessionManagerDelegate.h"; sourceTree = "<group>"; };
+		B2BC7E41531EE0A953C68D112E86CDBE /* YandexMobileAdsInstream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMobileAdsInstream.release.xcconfig; sourceTree = "<group>"; };
+		B2F953D797E4792FF8347255710D975E /* YMMYandexMetricaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaConfiguration.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaConfiguration.h"; sourceTree = "<group>"; };
+		B32072DC1D1E4D9D9663ABBE148DFE72 /* YMANativeAdLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdLoader.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdLoader.h"; sourceTree = "<group>"; };
+		B3E8362D62F3D8D4CB35614EC5334A39 /* YandexMobileAdsInstreamVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileAdsInstreamVersion.h; path = "YandexMobileAdsInstream.xcframework/ios-arm64_armv7/YandexMobileAdsInstream.framework/Headers/YandexMobileAdsInstreamVersion.h"; sourceTree = "<group>"; };
+		B4267B2225E9008A74298F5478212862 /* StepperView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StepperView.release.xcconfig; sourceTree = "<group>"; };
+		B4A2EBE152319745FCCA6478EE127893 /* YMMProfileAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMProfileAttribute.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMProfileAttribute.h"; sourceTree = "<group>"; };
+		B74D485D87D7785A8CEE2A7DF31C1A26 /* YandexMobileAdsInstream-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileAdsInstream-Swift.h"; path = "YandexMobileAdsInstream.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAdsInstream.framework/Headers/YandexMobileAdsInstream-Swift.h"; sourceTree = "<group>"; };
+		B7C07CF8FD26DE92FA2B08379FA1EFAF /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		B7E329A25B9043F81B920B70A9A48378 /* YMANativeAdMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdMedia.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdMedia.h"; sourceTree = "<group>"; };
+		BA36A3834D6B8BB3832D45765BF1685B /* Pods-KubSTU-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KubSTU-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BB9C0AD5B4B3A8FC464F311CDE999ACD /* YMMYandexMetricaPreloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPreloadInfo.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPreloadInfo.h"; sourceTree = "<group>"; };
+		BDC8EE9A2E51CB862DE563652066CD9E /* YMAImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAImpressionData.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAImpressionData.h"; sourceTree = "<group>"; };
+		BE702FF1BE6A477779647AD908845F47 /* YMADeviceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMADeviceTypes.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMADeviceTypes.h"; sourceTree = "<group>"; };
+		BFC2CB3B224ECB9D74B8D949039F43B2 /* StepperView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StepperView-dummy.m"; sourceTree = "<group>"; };
+		C2C24B97F510E044B8A245AF355B7DE1 /* YMMAdRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMAdRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMAdRevenueInfo.h"; sourceTree = "<group>"; };
+		C33C8CD7019BE1513DB3C6EB9BEABB59 /* YMANativeVideoPlaybackMuteControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackMuteControl.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackMuteControl.h"; sourceTree = "<group>"; };
+		C4748E055352A72EAE5577980ACE936E /* YMABidderTokenLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMABidderTokenLoader.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMABidderTokenLoader.h"; sourceTree = "<group>"; };
+		C475BD055E48ECA157E33CF0FFFD8F3C /* YMANativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdDelegate.h"; sourceTree = "<group>"; };
+		C6E32CE2E1D9E1CFB8680452A280D175 /* YandexMobileMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileMetrica.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica.h"; sourceTree = "<group>"; };
+		C776A97E394AF6CEFB2F6AC04692AE70 /* YMANativeBulkAdLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBulkAdLoaderDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeBulkAdLoaderDelegate.h"; sourceTree = "<group>"; };
+		C8689ACA0412B7FF432D696069F46A71 /* YMAAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAAdView.h"; sourceTree = "<group>"; };
+		C8CD80236CE83347F8855E9C3685FD15 /* YMMCompletionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMCompletionBlocks.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMCompletionBlocks.h"; sourceTree = "<group>"; };
+		CA40544B1FF9C9141868258BEAF07E1D /* YMMReporterConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMReporterConfiguration.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMReporterConfiguration.h"; sourceTree = "<group>"; };
+		CA8CA9117F37CEC6BBA41D48DDCE0902 /* YMMReporterConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMReporterConfiguration.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMReporterConfiguration.h"; sourceTree = "<group>"; };
+		CACD84C9C15E19EE194C7616FCFD3965 /* YMANativeAdVideoControllerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdVideoControllerProvider.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdVideoControllerProvider.h"; sourceTree = "<group>"; };
+		CAD55DFEBCD038E4F1F20B6E3C70C870 /* YMMUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMUserProfile.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMUserProfile.h"; sourceTree = "<group>"; };
+		CB6484CD928BE2A441D78A220FB5ED7E /* YMANativeVideoPlaybackControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackControls.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackControls.h"; sourceTree = "<group>"; };
+		CB91298D3BC082265671C0D3AFB3E3AF /* StepperView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StepperView-Info.plist"; sourceTree = "<group>"; };
+		CCB3E68C3A90EA8ED5D7C79007B7052E /* YMMYandexMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetrica.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetrica.h"; sourceTree = "<group>"; };
+		CD3C5DF7746160820BB832FC0DC5D460 /* YMMYandexMetricaPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaPlugins.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPlugins.h"; sourceTree = "<group>"; };
+		CD99B7AB46EC7FD96DB4D85B693FB58F /* YMMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMError.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMError.h"; sourceTree = "<group>"; };
+		CDA4EF9659576E2581702757BB0CBCDE /* YMMECommerce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMECommerce.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMECommerce.h"; sourceTree = "<group>"; };
+		CF623FBAE9ABA2CBAEFA1E3426DFC517 /* YMMUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMUserProfile.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_armv7/YandexMobileMetrica.framework/Versions/A/Headers/YMMUserProfile.h"; sourceTree = "<group>"; };
+		D0BD8515C81EA07E8C857113A212BFD6 /* YMMPluginErrorDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMPluginErrorDetails.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMPluginErrorDetails.h"; sourceTree = "<group>"; };
+		D0DCAC60E6BFCFA81191488E20153534 /* Pods-KubSTU-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KubSTU-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D139B59A47594701F22132B999EA2684 /* YMMRevenueInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMRevenueInfo.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMRevenueInfo.h"; sourceTree = "<group>"; };
+		D2A85EC5517E105031461951C2988154 /* YMMErrorRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMErrorRepresentable.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMErrorRepresentable.h"; sourceTree = "<group>"; };
+		D56233AEBEFA26B63D71F0F6754CAA59 /* PitStopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitStopView.swift; path = Sources/StepperView/Views/PitStopView.swift; sourceTree = "<group>"; };
+		D5EA992355D930105273E960E68E8D42 /* YMANativeAdAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdAssets.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdAssets.h"; sourceTree = "<group>"; };
+		D82E131C9F2A69D2CE09562CBB71121B /* YandexMobileAdsBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YandexMobileAdsBundle.bundle; path = static/YandexMobileAds.xcframework/YandexMobileAdsBundle.bundle; sourceTree = "<group>"; };
+		D86FC3EF5EA818080F0C2D1BA7FEDDDD /* YMAVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVersion.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAVersion.h"; sourceTree = "<group>"; };
+		D871FE51B0C105714FC1C26F28ED414F /* YandexMobileMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileMetrica.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica.h"; sourceTree = "<group>"; };
+		D945A22DAFA5A31ED71860A02C203257 /* YandexMobileMetrica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetrica-umbrella.h"; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica-umbrella.h"; sourceTree = "<group>"; };
+		DBBFF746CDCC6F52EB37C15B64D5A066 /* YMMUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMUserProfile.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMUserProfile.h"; sourceTree = "<group>"; };
+		DC3CC0BE9B58EB997C082CF59F92E209 /* YandexMobileMetricaCrashes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetricaCrashes-umbrella.h"; path = "static/YandexMobileMetricaCrashes.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetricaCrashes.framework/Versions/A/Headers/YandexMobileMetricaCrashes-umbrella.h"; sourceTree = "<group>"; };
+		DD139D6F38DAF6CC3CF2397C973035C5 /* YMANativeViewProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeViewProvider.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeViewProvider.h"; sourceTree = "<group>"; };
+		DE8EB010F2ACCD671F420644B8059DAC /* YandexMobileMetricaCrashes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetricaCrashes-umbrella.h"; path = "static/YandexMobileMetricaCrashes.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetricaCrashes.framework/Versions/A/Headers/YandexMobileMetricaCrashes-umbrella.h"; sourceTree = "<group>"; };
+		DF245DAD6B11DEF955E7E2BDB1969106 /* YMANativeAdRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdRequestConfiguration.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeAdRequestConfiguration.h"; sourceTree = "<group>"; };
+		E030476733D63ED5DE7DCE4F7302347F /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		E0FC127E8785EF5BC1CD7DBC8187BD9F /* YandexMobileAdsInstream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMobileAdsInstream.debug.xcconfig; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24F6710D6F89D2F1776D93C4179FBC6 /* YMAAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdSize.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAAdSize.h"; sourceTree = "<group>"; };
+		E3683F20EAE940EF2FD24F39D85BDD8A /* YMMCompletionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMCompletionBlocks.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMCompletionBlocks.h"; sourceTree = "<group>"; };
+		E5CF7FD99194D2A4E199D59B1647A99F /* YMANativeAdAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdAssets.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdAssets.h"; sourceTree = "<group>"; };
+		EA4043DC407772B65AC23FE47D310C23 /* YMMYandexMetricaConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetricaConfiguration.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaConfiguration.h"; sourceTree = "<group>"; };
+		EB18C7CC3242B6E55C81A773DF6C390D /* YandexMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YandexMobileAds.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YandexMobileAds.h"; sourceTree = "<group>"; };
+		EBF849DA3AADF325337C84D145605639 /* YMMYandexMetrica.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMYandexMetrica.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetrica.h"; sourceTree = "<group>"; };
+		EBFDFADA0321874957DCF536B4B03984 /* YMAVideoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAVideoController.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAVideoController.h"; sourceTree = "<group>"; };
+		ED57BB0CD6DD6D85D3FC83337F0B3C9E /* YandexMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YandexMobileAds.xcframework; path = static/YandexMobileAds.xcframework; sourceTree = "<group>"; };
+		ED908CA2D54FF76B71D87AF722047FDE /* YMANativeTemplateAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeTemplateAppearance.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeTemplateAppearance.h"; sourceTree = "<group>"; };
+		EE1A6E956D488BA780DE1A4ABFF9FFAC /* CircledIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircledIconView.swift; path = Sources/StepperView/Views/Indicators/CircledIconView.swift; sourceTree = "<group>"; };
+		EFE68C01CCC5FAB20D47DE214E0824EB /* YMANativeViewProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeViewProvider.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeViewProvider.h"; sourceTree = "<group>"; };
+		F10E23880D9EC0BEBF51C3086FB4A87D /* YMANativeVideoPlaybackMuteControlDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeVideoPlaybackMuteControlDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeVideoPlaybackMuteControlDelegate.h"; sourceTree = "<group>"; };
+		F1826FA01BBC8485AA48EDD8045B76C7 /* YandexMobileMetricaCrashes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YandexMobileMetricaCrashes-umbrella.h"; path = "static/YandexMobileMetricaCrashes.xcframework/ios-arm64_armv7/YandexMobileMetricaCrashes.framework/Versions/A/Headers/YandexMobileMetricaCrashes-umbrella.h"; sourceTree = "<group>"; };
+		F217D8F028E782E229A333134720CF00 /* YMMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMError.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMError.h"; sourceTree = "<group>"; };
+		F28C47779433E50A4791BE8773D56048 /* YandexMobileMetrica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexMobileMetrica.release.xcconfig; sourceTree = "<group>"; };
+		F2914E228CE6CE762E54BE8F790DF1EE /* PreferenceKey+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PreferenceKey+Extension.swift"; path = "Sources/StepperView/Extension/PreferenceKey+Extension.swift"; sourceTree = "<group>"; };
+		F454ACC449B562E24C70DB4A7B66C2F1 /* YMMStackTraceElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMStackTraceElement.h; path = "static/YandexMobileMetrica.xcframework/tvos-arm64/YandexMobileMetrica.framework/Versions/A/Headers/YMMStackTraceElement.h"; sourceTree = "<group>"; };
+		F56421DD40DE98DBE75ED13BE4DF5AE5 /* YMANativeAdType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeAdType.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeAdType.h"; sourceTree = "<group>"; };
+		F6130E8D9BDAB9089181F7ACB5598284 /* YMANativeSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeSliderView.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMANativeSliderView.h"; sourceTree = "<group>"; };
+		F690B9C7D3E6135DA33ADCB56F772DF7 /* YMMReporterConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMReporterConfiguration.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMReporterConfiguration.h"; sourceTree = "<group>"; };
+		F6F634F98DD4C8CBC2427062195E120F /* YMMProfileAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMMProfileAttribute.h; path = "static/YandexMobileMetrica.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileMetrica.framework/Versions/A/Headers/YMMProfileAttribute.h"; sourceTree = "<group>"; };
+		F80382323476E86693373162F1D853A7 /* YMAMutableNativeAdRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAMutableNativeAdRequestConfiguration.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMAMutableNativeAdRequestConfiguration.h"; sourceTree = "<group>"; };
+		FA93F8DF355CD978E1C3DB6FEF7FF15E /* YMAAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAdRequest.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAAdRequest.h"; sourceTree = "<group>"; };
+		FD8210C1E31D6DE1DE3E24F5F8E82933 /* YMAAudioSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMAAudioSessionManager.h; path = "static/YandexMobileAds.xcframework/ios-arm64_i386_x86_64-simulator/YandexMobileAds.framework/Headers/YMAAudioSessionManager.h"; sourceTree = "<group>"; };
+		FDBFE4A95D478E52319B3F3BD4C36DEA /* StepperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperView.swift; path = Sources/StepperView/Views/StepperView.swift; sourceTree = "<group>"; };
+		FFA0AE7F9D6484D4D9E7B106FF60705B /* YMANativeBulkAdLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMANativeBulkAdLoaderDelegate.h; path = "static/YandexMobileAds.xcframework/ios-arm64_armv7/YandexMobileAds.framework/Headers/YMANativeBulkAdLoaderDelegate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8AED69F6BF86EBDC1CC7C7EF2648C1DF /* Frameworks */ = {
+		3977393A21672F0FBC6F1193739E0D15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4549C0104E017FCF6DDFF5A41D7214 /* Foundation.framework in Frameworks */,
+				325CCDB295FFA016638075B5D2CEDD5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B738FDDB26A3EA3C1A75C95E5A683F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4111218D0974781E5AB599FBFF24B87 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,21 +405,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0165C821CF597218339BCEB679A2CC29 /* Targets Support Files */ = {
+		0844080554C3AE6383C2B2BC7A27B0AC /* YandexMobileMetrica */ = {
 			isa = PBXGroup;
 			children = (
-				A4A231C5104938ADB83455354C5CDD5F /* Pods-KubSTU-iOS */,
+				84873143A83F050997E231461FAA163B /* Static */,
+				AE241CE16E25E9CBDAE1ED9CDB2A2A41 /* Support Files */,
+			);
+			name = YandexMobileMetrica;
+			path = YandexMobileMetrica;
+			sourceTree = "<group>";
+		};
+		12EE4C2C86954B747D0CDDD5605FF4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF21B5CE618422F6E37019AA1BE86CD /* YandexMobileAdsInstream.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		143A76D4F5770D52FD2B05D4D1ED5225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23E17D5F3543135BFAB061441B5A5B0B /* StepperView.modulemap */,
+				BFC2CB3B224ECB9D74B8D949039F43B2 /* StepperView-dummy.m */,
+				CB91298D3BC082265671C0D3AFB3E3AF /* StepperView-Info.plist */,
+				21ED626DB04BF48FC969205C7A4CC3F5 /* StepperView-prefix.pch */,
+				52FED0B7A85D1563DAFE7DD93301F6EC /* StepperView-umbrella.h */,
+				8FB5DCA5E729CB2B7E38C8E0B816482F /* StepperView.debug.xcconfig */,
+				B4267B2225E9008A74298F5478212862 /* StepperView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StepperView";
+			sourceTree = "<group>";
+		};
+		14C852DF308263F354923BCB1198B308 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2885314A48BFC65F714E22CE5BAB3075 /* Pods-KubSTU-iOS */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3483C6C6B32871D08FCE09231B671718 /* Products */ = {
+		27E3300D4B073E7C687D18D6D9797956 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				833A2A66BDF32E99F3B2434FA8A55011 /* Pods-KubSTU-iOS */,
-				0B76BC7D0C2C3FA2DB609CE53D5C0C37 /* StepperView.framework */,
+				4C21A98DC167FCB334D36C5E0C8773F5 /* SwiftyJSON.swift */,
+				4DED4AC0EB1FC399F26E1FE60C11AFF4 /* Support Files */,
 			);
-			name = Products;
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		2885314A48BFC65F714E22CE5BAB3075 /* Pods-KubSTU-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				85241C6420335335E3B0DBC796D54653 /* Pods-KubSTU-iOS.modulemap */,
+				D0DCAC60E6BFCFA81191488E20153534 /* Pods-KubSTU-iOS-acknowledgements.markdown */,
+				82602894799238B9EEABB3F0B8E5B164 /* Pods-KubSTU-iOS-acknowledgements.plist */,
+				AFCD5F1BE8E4EC99CE62D4E4F8DBFA94 /* Pods-KubSTU-iOS-dummy.m */,
+				51469FB0199E8960C50BB937A6E4A46E /* Pods-KubSTU-iOS-frameworks.sh */,
+				1554632BF59CC63AF81CD91203B0DA3F /* Pods-KubSTU-iOS-Info.plist */,
+				80237FA17F60E1F375A4BCBD9599EADF /* Pods-KubSTU-iOS-resources.sh */,
+				3518FF95CDB2FFC064D69024C7B24006 /* Pods-KubSTU-iOS-umbrella.h */,
+				BA36A3834D6B8BB3832D45765BF1685B /* Pods-KubSTU-iOS.debug.xcconfig */,
+				4973F8AFE01899F58F9AC31C51974846 /* Pods-KubSTU-iOS.release.xcconfig */,
+			);
+			name = "Pods-KubSTU-iOS";
+			path = "Target Support Files/Pods-KubSTU-iOS";
+			sourceTree = "<group>";
+		};
+		4DED4AC0EB1FC399F26E1FE60C11AFF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE91D9428E24A7411D3A1ACCA3D2AF1 /* SwiftyJSON.modulemap */,
+				B7C07CF8FD26DE92FA2B08379FA1EFAF /* SwiftyJSON-dummy.m */,
+				E030476733D63ED5DE7DCE4F7302347F /* SwiftyJSON-Info.plist */,
+				7E02DE5F0395246059C1FC93571671FA /* SwiftyJSON-prefix.pch */,
+				1AABDD05D0129BD355EDA700C6EEAD82 /* SwiftyJSON-umbrella.h */,
+				22C05C87792A696CFF68E44CD3944241 /* SwiftyJSON.debug.xcconfig */,
+				1CE05F0F3009455313179555157B263C /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -129,70 +497,167 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6EF095429A64D8CD8FDF69AB7DA129F4 /* StepperView */ = {
+		599B228656DF77B145D13D9C812C61D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				879F23CB472EE1781326245B146B48E2 /* CircledIconView.swift */,
-				0DEC8FA0F8FA8050C6DC589A0364E980 /* Colors+Extension.swift */,
-				00EE9F694BB4E4DD8F20D4B1D02A310D /* EnvironmentValues+Extension.swift */,
-				DAE4B1BB2F9F19A4D623603CF27B0153 /* HorizontalLineView.swift */,
-				170749E3656CE997339653DCB8E6D290 /* IndicatorView.swift */,
-				C381D06DBF6D4C784035764CC90CE37C /* LoadingTimer.swift */,
-				C0547EC23AB322BE8407CAA58D21FC57 /* NumberedCircleView.swift */,
-				F699DA74AC41994D09C6A109CB7BC048 /* PitStopLineView.swift */,
-				3E0CF0DBA719C83CECCAC9485DDA1EA6 /* PitStopView.swift */,
-				AA4FC5C95733F65105CD81CB612FC707 /* PreferenceKey+Extension.swift */,
-				2E0F4E9DC455A1FBDDC77524E496675A /* StepIndicatorHorizontalView.swift */,
-				448280F03DC3922EC131BB14B162E8DA /* StepIndicatorVerticalView.swift */,
-				270D1A24FCC9A00420AF5D059EAC50D3 /* StepperView.swift */,
-				2F7483EB53E5800A98A13CCBCDA3B228 /* TextView.swift */,
-				090B8ED1F736E1CB3F427C3D840BF23B /* Utils.swift */,
-				0F9EEDD1A4DEB8485A6FD9578A6B26E7 /* VerticalAlignment+Extension.swift */,
-				81613480B298C07F7C55055334364E3C /* VerticalLineView.swift */,
-				E473CBDAE2DDE11460A07B4B7F1D028E /* View+Extensions.swift */,
-				C989F59EA9BDD2E1442CB0AEC6D990BE /* Support Files */,
+				833A2A66BDF32E99F3B2434FA8A55011 /* Pods-KubSTU-iOS */,
+				0B76BC7D0C2C3FA2DB609CE53D5C0C37 /* StepperView */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
 			);
-			path = StepperView;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		703BB3FD9EE850BC6EAA757C6F6D92CB /* Pods */ = {
+		5C40142C2EEAC8559F4B906AE8F64EB5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				6EF095429A64D8CD8FDF69AB7DA129F4 /* StepperView */,
+				692E7A85ADDAF53BD232D1E8FCFD556D /* YandexMobileMetrica.h */,
+				D871FE51B0C105714FC1C26F28ED414F /* YandexMobileMetrica.h */,
+				55430F863BC192ED8C672648468289A0 /* YandexMobileMetrica.h */,
+				C6E32CE2E1D9E1CFB8680452A280D175 /* YandexMobileMetrica.h */,
+				AD631F20F85ABDD62E89FF764543EF34 /* YandexMobileMetrica-umbrella.h */,
+				511A61088E697BC4BC6F2A8EBDF8C260 /* YandexMobileMetrica-umbrella.h */,
+				63D31C941CAE90FB349167C931083307 /* YandexMobileMetrica-umbrella.h */,
+				D945A22DAFA5A31ED71860A02C203257 /* YandexMobileMetrica-umbrella.h */,
+				16518B7690DA3895C9818255E19C4A5A /* YMMAdRevenueInfo.h */,
+				905C6FDB139CA15BF176204673052A97 /* YMMAdRevenueInfo.h */,
+				C2C24B97F510E044B8A245AF355B7DE1 /* YMMAdRevenueInfo.h */,
+				3F059A8D29DAADA5D7D8D5675B119F98 /* YMMAdRevenueInfo.h */,
+				16E4E947F7C3DE2569735FA817A15CAE /* YMMCompletionBlocks.h */,
+				C8CD80236CE83347F8855E9C3685FD15 /* YMMCompletionBlocks.h */,
+				50BD2080029ADC91FD707EE7C085EC3B /* YMMCompletionBlocks.h */,
+				E3683F20EAE940EF2FD24F39D85BDD8A /* YMMCompletionBlocks.h */,
+				92F07B61CE99D54C2C14879A6E8893D7 /* YMMECommerce.h */,
+				4A7D4BDF5492298D5E1BB48F2674DE41 /* YMMECommerce.h */,
+				CDA4EF9659576E2581702757BB0CBCDE /* YMMECommerce.h */,
+				1532DED1F729263D3521603265B9B1BD /* YMMECommerce.h */,
+				4CDE17C9AFD3C3E43CFA7B7689323673 /* YMMError.h */,
+				CD99B7AB46EC7FD96DB4D85B693FB58F /* YMMError.h */,
+				8EEAA63C4B59F0229DB4A8BBE1B38A19 /* YMMError.h */,
+				F217D8F028E782E229A333134720CF00 /* YMMError.h */,
+				81068BB672F484B23FCBF1F5BCA9875D /* YMMErrorRepresentable.h */,
+				7AA7673FCD174989FCA97E9D4067B5A7 /* YMMErrorRepresentable.h */,
+				B10119F91477BEB434A234944ADCDD46 /* YMMErrorRepresentable.h */,
+				D2A85EC5517E105031461951C2988154 /* YMMErrorRepresentable.h */,
+				A41359A88545E865F6B041D9B53E4532 /* YMMPluginErrorDetails.h */,
+				D0BD8515C81EA07E8C857113A212BFD6 /* YMMPluginErrorDetails.h */,
+				2B5A1F0BC40AC3830E0E1C2F1BF09879 /* YMMPluginErrorDetails.h */,
+				1BC5465731A261FAE95890D69A9CC1DE /* YMMPluginErrorDetails.h */,
+				94614B6580D136603B1D82A56E44178D /* YMMProfileAttribute.h */,
+				F6F634F98DD4C8CBC2427062195E120F /* YMMProfileAttribute.h */,
+				B4A2EBE152319745FCCA6478EE127893 /* YMMProfileAttribute.h */,
+				0F7037159BCA7E8C08AC2214F3AC1D3E /* YMMProfileAttribute.h */,
+				AFD85D592A22EC6145BA6F0324EDD178 /* YMMReporterConfiguration.h */,
+				F690B9C7D3E6135DA33ADCB56F772DF7 /* YMMReporterConfiguration.h */,
+				CA40544B1FF9C9141868258BEAF07E1D /* YMMReporterConfiguration.h */,
+				CA8CA9117F37CEC6BBA41D48DDCE0902 /* YMMReporterConfiguration.h */,
+				7736CD9C00A0F31C13607612EB31E8F4 /* YMMRevenueInfo.h */,
+				61940DD9976C208531D04FB6D2A0DE72 /* YMMRevenueInfo.h */,
+				D139B59A47594701F22132B999EA2684 /* YMMRevenueInfo.h */,
+				AE40AF2E1230A87B92AF700BBF0304C8 /* YMMRevenueInfo.h */,
+				9DC7D7C4629F096751CA1D1EE822DCE0 /* YMMStackTraceElement.h */,
+				34CBA66A1391FDFF0C265691FCA86265 /* YMMStackTraceElement.h */,
+				F454ACC449B562E24C70DB4A7B66C2F1 /* YMMStackTraceElement.h */,
+				3AB93D620527A451A8FE91DC7DB2F5D8 /* YMMStackTraceElement.h */,
+				CF623FBAE9ABA2CBAEFA1E3426DFC517 /* YMMUserProfile.h */,
+				8B36BE52D2F3265A18C2521A82E8E55D /* YMMUserProfile.h */,
+				DBBFF746CDCC6F52EB37C15B64D5A066 /* YMMUserProfile.h */,
+				CAD55DFEBCD038E4F1F20B6E3C70C870 /* YMMUserProfile.h */,
+				A6D4EA374E4AC4BAEA3FAE324BE4CA1C /* YMMVersion.h */,
+				16BC5AF979509F31EDBAC08C1A9B0E9A /* YMMVersion.h */,
+				0260BC3115C3D025CE5651CB4090137E /* YMMVersion.h */,
+				2AC82485DF38F45C562F33BE056CECA2 /* YMMVersion.h */,
+				CCB3E68C3A90EA8ED5D7C79007B7052E /* YMMYandexMetrica.h */,
+				0BDF1549F9B6B71DAD5615137DAE8A49 /* YMMYandexMetrica.h */,
+				EBF849DA3AADF325337C84D145605639 /* YMMYandexMetrica.h */,
+				729751086455067975B8A2E9B17026D8 /* YMMYandexMetrica.h */,
+				6B584F0C8E6FD5E476171E098531A21B /* YMMYandexMetricaConfiguration.h */,
+				EA4043DC407772B65AC23FE47D310C23 /* YMMYandexMetricaConfiguration.h */,
+				73EF1982F7CF5B7196A6DB878698F149 /* YMMYandexMetricaConfiguration.h */,
+				B2F953D797E4792FF8347255710D975E /* YMMYandexMetricaConfiguration.h */,
+				30E6F0EC9F7B708C5496535D89B10365 /* YMMYandexMetricaPluginReporting.h */,
+				5D39D20758704A9F1EBA5652E22203DF /* YMMYandexMetricaPluginReporting.h */,
+				0FA45CBCA5AEF59E0A00FD98B06C1908 /* YMMYandexMetricaPluginReporting.h */,
+				5C9F7326201F68A51ECACC74E69E2E45 /* YMMYandexMetricaPluginReporting.h */,
+				14CD790ACE82805E578B73E335D5C915 /* YMMYandexMetricaPlugins.h */,
+				CD3C5DF7746160820BB832FC0DC5D460 /* YMMYandexMetricaPlugins.h */,
+				1A6552C5C42B1A50796F10FA32ABDBEB /* YMMYandexMetricaPlugins.h */,
+				44B85CD4ED5451C67CBB769FAF332E39 /* YMMYandexMetricaPlugins.h */,
+				403AE3758D871FEDE6BF188366EB2253 /* YMMYandexMetricaPreloadInfo.h */,
+				3F2F0A1D5A0740263DA220A55F6FD678 /* YMMYandexMetricaPreloadInfo.h */,
+				9EBEEAD875B25CABFDFFEB14D88E736A /* YMMYandexMetricaPreloadInfo.h */,
+				BB9C0AD5B4B3A8FC464F311CDE999ACD /* YMMYandexMetricaPreloadInfo.h */,
+				11731CC040D11AF1226F306CB9912FEF /* YMMYandexMetricaReporting.h */,
+				7DDF52A665566495BACA806FAB3D60DB /* YMMYandexMetricaReporting.h */,
+				13BB4F0072F517DE60CE85F969A50EFD /* YMMYandexMetricaReporting.h */,
+				09E3E44676529F0C463E957BE10F739D /* YMMYandexMetricaReporting.h */,
+				E71408FED999DD12B1DDF0CD517972E8 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5DA266EAA0A52768F124C51F0C0D53BA /* YandexMobileAdsInstream */ = {
+			isa = PBXGroup;
+			children = (
+				A8991F04C32B933B7FB0E95E75930B5F /* YandexMobileAdsInstream-Swift.h */,
+				B74D485D87D7785A8CEE2A7DF31C1A26 /* YandexMobileAdsInstream-Swift.h */,
+				B3E8362D62F3D8D4CB35614EC5334A39 /* YandexMobileAdsInstreamVersion.h */,
+				2F254F6C5AD430A2798900E2E4B5838F /* YandexMobileAdsInstreamVersion.h */,
+				12EE4C2C86954B747D0CDDD5605FF4EB /* Frameworks */,
+				E96AB9B64E7E873A56EAD505EFDDB895 /* Support Files */,
+			);
+			name = YandexMobileAdsInstream;
+			path = YandexMobileAdsInstream;
+			sourceTree = "<group>";
+		};
+		6868AFAD38B65E21D72B98E8B8F4AD89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA9F0FF4AF69F614B0FFBE5729E933E /* StepperView */,
+				27E3300D4B073E7C687D18D6D9797956 /* SwiftyJSON */,
+				E032868109CA9714C3EAED5E7EFC5F30 /* YandexMobileAds */,
+				5DA266EAA0A52768F124C51F0C0D53BA /* YandexMobileAdsInstream */,
+				0844080554C3AE6383C2B2BC7A27B0AC /* YandexMobileMetrica */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A4A231C5104938ADB83455354C5CDD5F /* Pods-KubSTU-iOS */ = {
+		6C749C529F252C16A694E532BA29A7C7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2D390306FF2BC674919358A82350E4A /* Pods-KubSTU-iOS.modulemap */,
-				FFF002D08C9FF2181522CD71D48A1BBA /* Pods-KubSTU-iOS-acknowledgements.markdown */,
-				E0EB446B797E79341B9F75323AD94867 /* Pods-KubSTU-iOS-acknowledgements.plist */,
-				44B9537E4ACC8E41BF7527F8612DB955 /* Pods-KubSTU-iOS-dummy.m */,
-				8D6CE35CA0DEA1180939F10D5A457EE6 /* Pods-KubSTU-iOS-frameworks.sh */,
-				84C65ECE9FFE03F6B91B453A05816B2C /* Pods-KubSTU-iOS-Info.plist */,
-				A663BE2C7FD29D73D16FA963D0683286 /* Pods-KubSTU-iOS-umbrella.h */,
-				354C71E0D37B4BF9881658F949485EF6 /* Pods-KubSTU-iOS.debug.xcconfig */,
-				98F717892E958F3DC47FDECBD8CD95D4 /* Pods-KubSTU-iOS.release.xcconfig */,
-			);
-			name = "Pods-KubSTU-iOS";
-			path = "Target Support Files/Pods-KubSTU-iOS";
-			sourceTree = "<group>";
-		};
-		C989F59EA9BDD2E1442CB0AEC6D990BE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				53FF5E1FA87322B4031D8D6E78EE1F1C /* StepperView.modulemap */,
-				0B4E833B7F22AB7A3761D749D2911744 /* StepperView-dummy.m */,
-				281628D8EED67F8A3345EC1A40E693BB /* StepperView-Info.plist */,
-				8D3825DC86881C5F8EB5483C6B36EFA0 /* StepperView-prefix.pch */,
-				7B77B723F836D7CC083BDC108BC27238 /* StepperView-umbrella.h */,
-				12BC4C49F8A7042EE9EC21AA193A5CD9 /* StepperView.debug.xcconfig */,
-				69D745CB460FC7C2EDB163BE2D2F15DA /* StepperView.release.xcconfig */,
+				78B74ED7443929A314893211FB08D475 /* YandexMobileAds-xcframeworks.sh */,
+				34A82B6814CCB27EDB44CF7FE97D59EF /* YandexMobileAds.debug.xcconfig */,
+				763F22E56203628C499C4118EC1193B6 /* YandexMobileAds.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/StepperView";
+			path = "../Target Support Files/YandexMobileAds";
+			sourceTree = "<group>";
+		};
+		84873143A83F050997E231461FAA163B /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				5C40142C2EEAC8559F4B906AE8F64EB5 /* Core */,
+				F99425D09EF65367566E025BFCAC8094 /* Crashes */,
+			);
+			name = Static;
+			sourceTree = "<group>";
+		};
+		AE241CE16E25E9CBDAE1ED9CDB2A2A41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D0BFF48AB2C15BD61058081C9C4B5 /* YandexMobileMetrica-xcframeworks.sh */,
+				89B706D33E44561F1540481FE63AA66D /* YandexMobileMetrica.debug.xcconfig */,
+				F28C47779433E50A4791BE8773D56048 /* YandexMobileMetrica.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YandexMobileMetrica";
+			sourceTree = "<group>";
+		};
+		C23B4A516F3F048C0285405F2AC25612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED57BB0CD6DD6D85D3FC83337F0B3C9E /* YandexMobileAds.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -200,9 +665,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				703BB3FD9EE850BC6EAA757C6F6D92CB /* Pods */,
-				3483C6C6B32871D08FCE09231B671718 /* Products */,
-				0165C821CF597218339BCEB679A2CC29 /* Targets Support Files */,
+				6868AFAD38B65E21D72B98E8B8F4AD89 /* Pods */,
+				599B228656DF77B145D13D9C812C61D7 /* Products */,
+				14C852DF308263F354923BCB1198B308 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,17 +679,194 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DFA9F0FF4AF69F614B0FFBE5729E933E /* StepperView */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A6E956D488BA780DE1A4ABFF9FFAC /* CircledIconView.swift */,
+				A8D0D60E3F8A4724FCAD00C9DE2E2CBF /* Colors+Extension.swift */,
+				8127D6A5CE27275934BE9A64B7E49ABA /* EnvironmentValues+Extension.swift */,
+				27FB055E4348A37D18F32BF3926FE9EE /* HorizontalLineView.swift */,
+				8D9202C8F9B472720FC105B39112C7A6 /* IndicatorView.swift */,
+				0F81D5FCE8213418AE39D70D7E5583B1 /* LoadingTimer.swift */,
+				7751609D6552D81DA843744E905CD39D /* NumberedCircleView.swift */,
+				840F76F59CF5A0DEAE8837F370EA519C /* PitStopLineView.swift */,
+				D56233AEBEFA26B63D71F0F6754CAA59 /* PitStopView.swift */,
+				F2914E228CE6CE762E54BE8F790DF1EE /* PreferenceKey+Extension.swift */,
+				85F25BEFE938E30D4F100865A269A3F5 /* StepIndicatorHorizontalView.swift */,
+				1067598B8C8939437DD9A96ED2958EDA /* StepIndicatorVerticalView.swift */,
+				FDBFE4A95D478E52319B3F3BD4C36DEA /* StepperView.swift */,
+				A7F3169E10AAEA384C8759E8A789CEA0 /* TextView.swift */,
+				7FCC88F4BB9032C00EFFB845EEFBEC47 /* Utils.swift */,
+				7C889D3C389D2E02E82907AA49B35A6D /* VerticalAlignment+Extension.swift */,
+				5EB75BF4B7134C17D8A6BF6B26A7340C /* VerticalLineView.swift */,
+				36BE20491F2B2C46C1A06633ECBFAAE0 /* View+Extensions.swift */,
+				143A76D4F5770D52FD2B05D4D1ED5225 /* Support Files */,
+			);
+			name = StepperView;
+			path = StepperView;
+			sourceTree = "<group>";
+		};
+		E032868109CA9714C3EAED5E7EFC5F30 /* YandexMobileAds */ = {
+			isa = PBXGroup;
+			children = (
+				EB18C7CC3242B6E55C81A773DF6C390D /* YandexMobileAds.h */,
+				7A211AA2E65B7154BC5CA6E016FF15C3 /* YandexMobileAds.h */,
+				3B521C5365BA1F47EA823D9C2F84E7E6 /* YandexMobileAds-Swift.h */,
+				4B3EC2187BDDF728C31BC90A96E33738 /* YandexMobileAds-Swift.h */,
+				28E7DE4519139110E99A4F5220D9CF8D /* YandexMobileAds-umbrella.h */,
+				B0FEDED8CA6B5E77ECEB699AD43929AB /* YandexMobileAds-umbrella.h */,
+				77DE9E90F30C7F0B034A9F05C7ECF665 /* YandexMobileNativeAds.h */,
+				4C120903F2DFAA12CFF4537C7F7800B5 /* YandexMobileNativeAds.h */,
+				78E0EA9C01AB2DFE33EF776731D6B891 /* YMAAdRequest.h */,
+				FA93F8DF355CD978E1C3DB6FEF7FF15E /* YMAAdRequest.h */,
+				21E7086004B071B447EE11322C137BA0 /* YMAAdSize.h */,
+				E24F6710D6F89D2F1776D93C4179FBC6 /* YMAAdSize.h */,
+				C8689ACA0412B7FF432D696069F46A71 /* YMAAdView.h */,
+				51EAFB3EADB113724119BFD9931BBAC1 /* YMAAdView.h */,
+				0C00CAE64DB5725DFFA684F997DC12B6 /* YMAAudioSessionManager.h */,
+				FD8210C1E31D6DE1DE3E24F5F8E82933 /* YMAAudioSessionManager.h */,
+				B17118D47DAACA26513C394AE8A01AD7 /* YMAAudioSessionManagerDelegate.h */,
+				4A7DD278E51EDE7C8B6FA12095D20F06 /* YMAAudioSessionManagerDelegate.h */,
+				C4748E055352A72EAE5577980ACE936E /* YMABidderTokenLoader.h */,
+				284B55F3CB11C480CA144432815BEE26 /* YMABidderTokenLoader.h */,
+				BE702FF1BE6A477779647AD908845F47 /* YMADeviceTypes.h */,
+				9CD4061B8D6B14348C613F3C98B439E7 /* YMADeviceTypes.h */,
+				133376742DEF3DF4D96975ED7807B619 /* YMAErrors.h */,
+				6BEDFD95395A739CD3A33710EEC85C56 /* YMAErrors.h */,
+				7C6108CD337DFD8E75A248C4200D20FA /* YMAGender.h */,
+				54AA1CEEA4B5D128550D942DC71AD884 /* YMAGender.h */,
+				BDC8EE9A2E51CB862DE563652066CD9E /* YMAImpressionData.h */,
+				883BA074E2E9B0DE56F1B4B77B17D63E /* YMAImpressionData.h */,
+				A684FC8575F489D8FF8937FE3EAEEBCF /* YMAInterstitialAd.h */,
+				802487D95F3D3B7F5017030EAE959768 /* YMAInterstitialAd.h */,
+				9CCC613B64B0B9506E9384A15A03BDC0 /* YMAMobileAds.h */,
+				444053DBD101F467DFACA787C737BCF4 /* YMAMobileAds.h */,
+				F80382323476E86693373162F1D853A7 /* YMAMutableNativeAdRequestConfiguration.h */,
+				99471F8981FC987C950C5A68239AF3CF /* YMAMutableNativeAdRequestConfiguration.h */,
+				4946CF96AD42CEA36BF671978ECA49EB /* YMANativeAd.h */,
+				25A4981DA82F8B31625A1E6B9CDAF53C /* YMANativeAd.h */,
+				D5EA992355D930105273E960E68E8D42 /* YMANativeAdAssets.h */,
+				E5CF7FD99194D2A4E199D59B1647A99F /* YMANativeAdAssets.h */,
+				C475BD055E48ECA157E33CF0FFFD8F3C /* YMANativeAdDelegate.h */,
+				26E7299F63F3CE8FDB4FF9EC16752D71 /* YMANativeAdDelegate.h */,
+				77341B62A23BE59AD26C532A066A1CBD /* YMANativeAdErrors.h */,
+				A83F1EEBEDCD887BDCFA7B7187497304 /* YMANativeAdErrors.h */,
+				8EF2932524460D2805C49CDD6F8BB30B /* YMANativeAdImage.h */,
+				7D946A127B99DE85851CA25CACD9C847 /* YMANativeAdImage.h */,
+				8C8E49EEDE8CFFBBA2C1C805733E19AF /* YMANativeAdLoader.h */,
+				B32072DC1D1E4D9D9663ABBE148DFE72 /* YMANativeAdLoader.h */,
+				A828FC0A37C28909F4FDB0B31156A944 /* YMANativeAdMedia.h */,
+				B7E329A25B9043F81B920B70A9A48378 /* YMANativeAdMedia.h */,
+				DF245DAD6B11DEF955E7E2BDB1969106 /* YMANativeAdRequestConfiguration.h */,
+				63FE76467C75B813433BCAB73A736FD4 /* YMANativeAdRequestConfiguration.h */,
+				0CD34BF4CAC92F87C2132B78E116E06C /* YMANativeAdType.h */,
+				F56421DD40DE98DBE75ED13BE4DF5AE5 /* YMANativeAdType.h */,
+				720F7AA7D35381DC565C70D1061EAA23 /* YMANativeAdVideoController.h */,
+				3E40D7C584987870D18AF4BFFE36C2AE /* YMANativeAdVideoController.h */,
+				4E647DAD00B424AFCADB4F9185038D9A /* YMANativeAdVideoControllerProvider.h */,
+				CACD84C9C15E19EE194C7616FCFD3965 /* YMANativeAdVideoControllerProvider.h */,
+				2719B5DDE2FD95560BE1DDA1227FC50E /* YMANativeAdView.h */,
+				23A6D6B2BD0FCA5E75F66F8434939F45 /* YMANativeAdView.h */,
+				7E938FC1B2821502A6D601DB54F9B7E0 /* YMANativeAssetsAppearance.h */,
+				72DD8B223AB0480C64E783938782AE12 /* YMANativeAssetsAppearance.h */,
+				86BA34420E4C028AE5F8B842FE870D2C /* YMANativeBannerView.h */,
+				9BF53135378225AB04B521C6FA6295F0 /* YMANativeBannerView.h */,
+				3C6EB71BB0827A357E1FA1707E2DB821 /* YMANativeBulkAdLoader.h */,
+				7DD70F082530392944140881AC54AEEE /* YMANativeBulkAdLoader.h */,
+				FFA0AE7F9D6484D4D9E7B106FF60705B /* YMANativeBulkAdLoaderDelegate.h */,
+				C776A97E394AF6CEFB2F6AC04692AE70 /* YMANativeBulkAdLoaderDelegate.h */,
+				104F6C78CEDA104B9CB3FFED7869B725 /* YMANativeImageLoadingObserver.h */,
+				9069901292335C20D8660BDDECDA0628 /* YMANativeImageLoadingObserver.h */,
+				63DD30FD27E4594267A01A0F37DD1412 /* YMANativeMediaView.h */,
+				1CFC0DD3F3B63547A169E38B08244D40 /* YMANativeMediaView.h */,
+				4DEF9A264D7C7724CD8C9CFD0D9E101D /* YMANativeSliderView.h */,
+				F6130E8D9BDAB9089181F7ACB5598284 /* YMANativeSliderView.h */,
+				1DE33DF0ED54866D9228C167154A27D6 /* YMANativeSliderViewBinder.h */,
+				19B03194959F123BE517CFAF866FD3F8 /* YMANativeSliderViewBinder.h */,
+				ED908CA2D54FF76B71D87AF722047FDE /* YMANativeTemplateAppearance.h */,
+				4FF3B2597B842D84453DA4CAD61BE55F /* YMANativeTemplateAppearance.h */,
+				2C030DB6922531D6A026FEB4E9BF9E3B /* YMANativeVideoControlsCustomizable.h */,
+				18E2EF37CDC98052E663E079DE8E72FC /* YMANativeVideoControlsCustomizable.h */,
+				CB6484CD928BE2A441D78A220FB5ED7E /* YMANativeVideoPlaybackControls.h */,
+				54BADE692697A6A944979D8FC3D07DC3 /* YMANativeVideoPlaybackControls.h */,
+				7FFF0A1A3B7935C731FAB95FD7F6500B /* YMANativeVideoPlaybackMuteControl.h */,
+				C33C8CD7019BE1513DB3C6EB9BEABB59 /* YMANativeVideoPlaybackMuteControl.h */,
+				F10E23880D9EC0BEBF51C3086FB4A87D /* YMANativeVideoPlaybackMuteControlDelegate.h */,
+				66096835E9DA17CA8D94274A2909E3D6 /* YMANativeVideoPlaybackMuteControlDelegate.h */,
+				720DA58C2BE6628C26E6C1529472C57B /* YMANativeVideoPlaybackProgressControl.h */,
+				49080DA63FCDF61FBE887A10DF86A5F2 /* YMANativeVideoPlaybackProgressControl.h */,
+				DD139D6F38DAF6CC3CF2397C973035C5 /* YMANativeViewProvider.h */,
+				EFE68C01CCC5FAB20D47DE214E0824EB /* YMANativeViewProvider.h */,
+				98484CAFB479122C04514B37EC305DF1 /* YMARating.h */,
+				404E7DCB527FFF22658D4227E356C001 /* YMARating.h */,
+				157F5EF723DE3EB55F3BDAB5F11FBDB5 /* YMAReward.h */,
+				8B9D58A7B110091F05EA2360D6A1854E /* YMAReward.h */,
+				3A47232662A8CF409B83244ACBF037F5 /* YMARewardedAd.h */,
+				B047877AD15F5621D8E09620C9820594 /* YMARewardedAd.h */,
+				D86FC3EF5EA818080F0C2D1BA7FEDDDD /* YMAVersion.h */,
+				442944FAA22EBA2324042A188DC63D91 /* YMAVersion.h */,
+				8FDDE739CBEDCE4D3AA1521296438676 /* YMAVideoController.h */,
+				EBFDFADA0321874957DCF536B4B03984 /* YMAVideoController.h */,
+				945A87164C3AA26FBD1A42D81D448A26 /* YMAVideoDelegate.h */,
+				61D6940AB847E9E1A512265A31A25C65 /* YMAVideoDelegate.h */,
+				C23B4A516F3F048C0285405F2AC25612 /* Frameworks */,
+				FA36A626A12500ADE333D317D5CD4310 /* Resources */,
+				6C749C529F252C16A694E532BA29A7C7 /* Support Files */,
+			);
+			name = YandexMobileAds;
+			path = YandexMobileAds;
+			sourceTree = "<group>";
+		};
+		E71408FED999DD12B1DDF0CD517972E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3322487E616D148EB9281AB8F4153027 /* YandexMobileMetrica.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E96AB9B64E7E873A56EAD505EFDDB895 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E6C4896FEAB401C2B290C8949023C /* YandexMobileAdsInstream-xcframeworks.sh */,
+				E0FC127E8785EF5BC1CD7DBC8187BD9F /* YandexMobileAdsInstream.debug.xcconfig */,
+				B2BC7E41531EE0A953C68D112E86CDBE /* YandexMobileAdsInstream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YandexMobileAdsInstream";
+			sourceTree = "<group>";
+		};
+		F919043DC88F12F4B0DC6D8B76FD4163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88853BAEC933E8BA46E330EA749F3BA3 /* YandexMobileMetricaCrashes.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F99425D09EF65367566E025BFCAC8094 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				F1826FA01BBC8485AA48EDD8045B76C7 /* YandexMobileMetricaCrashes-umbrella.h */,
+				DC3CC0BE9B58EB997C082CF59F92E209 /* YandexMobileMetricaCrashes-umbrella.h */,
+				3B2433E28E88305CB7A0C057901E368F /* YandexMobileMetricaCrashes-umbrella.h */,
+				DE8EB010F2ACCD671F420644B8059DAC /* YandexMobileMetricaCrashes-umbrella.h */,
+				F919043DC88F12F4B0DC6D8B76FD4163 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		FA36A626A12500ADE333D317D5CD4310 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D82E131C9F2A69D2CE09562CBB71121B /* YandexMobileAdsBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0025B06145006502E732EBB12662B6C1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC2813D25EB2C5AE6420C5D5A86F0F62 /* Pods-KubSTU-iOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1E558C07A7D0B827ABD4F48EA3606E79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,22 +875,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A7A453FEA39D874A6880ADCB8653534 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F200E90A64D09ED0760B8099123AC7 /* Pods-KubSTU-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41145698F7DF35B05606D01197454CFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115142039C23F91827E6961CC479F05 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		05C54B5EB2E0D4C0C1EA59232E7D8699 /* Pods-KubSTU-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FBD7D7F90403CB63321367DAEDE02B9 /* Build configuration list for PBXNativeTarget "Pods-KubSTU-iOS" */;
+			buildConfigurationList = 98EA3C27A2F26CC5B17DB24C1FD9F08F /* Build configuration list for PBXNativeTarget "Pods-KubSTU-iOS" */;
 			buildPhases = (
-				0025B06145006502E732EBB12662B6C1 /* Headers */,
-				2C018334C03951AF2C86969084C0CB58 /* Sources */,
-				8AED69F6BF86EBDC1CC7C7EF2648C1DF /* Frameworks */,
-				3C18A33D3D088714E5D5E7BDF87E091F /* Resources */,
+				3A7A453FEA39D874A6880ADCB8653534 /* Headers */,
+				41A392A53FDD2B337943C7472BB639AF /* Sources */,
+				B738FDDB26A3EA3C1A75C95E5A683F74 /* Frameworks */,
+				75AD733D9851ACFE5EBE70BAD4971F6D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5659D95A666CA20199D6969A982DA3C0 /* PBXTargetDependency */,
+				DC7B2932A08D2C62D2EBA5685E3D0066 /* PBXTargetDependency */,
+				7D821437E7D01D851A69F83496781F2E /* PBXTargetDependency */,
+				3E23D1A8F6018A8E8B76E9F97211B3A4 /* PBXTargetDependency */,
+				204A0BEB571B739B5E329547E96E9578 /* PBXTargetDependency */,
+				4E89375FD4DB8543716CA6D1993C642A /* PBXTargetDependency */,
 			);
 			name = "Pods-KubSTU-iOS";
 			productName = Pods_KubSTU_iOS;
@@ -270,7 +932,25 @@
 			);
 			name = StepperView;
 			productName = StepperView;
-			productReference = 0B76BC7D0C2C3FA2DB609CE53D5C0C37 /* StepperView.framework */;
+			productReference = 0B76BC7D0C2C3FA2DB609CE53D5C0C37 /* StepperView */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2490E828D479276A7E0AFBA515DD77FA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				41145698F7DF35B05606D01197454CFC /* Headers */,
+				7B5BEB32F210EFE38F7D58FF8A1CC2DE /* Sources */,
+				3977393A21672F0FBC6F1193739E0D15 /* Frameworks */,
+				B05597C458D738E12F170EAC515F8483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -280,7 +960,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -291,25 +971,36 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3483C6C6B32871D08FCE09231B671718 /* Products */;
+			productRefGroup = 599B228656DF77B145D13D9C812C61D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				05C54B5EB2E0D4C0C1EA59232E7D8699 /* Pods-KubSTU-iOS */,
 				168A52CD2EC5A2263BAF15EFF9FB166E /* StepperView */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+				4832893FECBC39703BE3E09931358624 /* YandexMobileAds */,
+				4EC5D92270B93BDEAD9BF335B0985A5B /* YandexMobileAdsInstream */,
+				899318C1CEDE586664EC232A68069570 /* YandexMobileMetrica */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C18A33D3D088714E5D5E7BDF87E091F /* Resources */ = {
+		41D6A69D60EBA36C2A5D4C617EB3BD55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41D6A69D60EBA36C2A5D4C617EB3BD55 /* Resources */ = {
+		75AD733D9851ACFE5EBE70BAD4971F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05597C458D738E12F170EAC515F8483 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,12 +1009,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		718D6E861837B5C3D0E4C126F55C02F0 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/YandexMobileMetrica/YandexMobileMetrica-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/YandexMobileMetrica/YandexMobileMetrica-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/YandexMobileMetrica/YandexMobileMetrica-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA9E8BF8C642491CAF13B1141C85A17 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/YandexMobileAds/YandexMobileAds-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/YandexMobileAds/YandexMobileAds-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/YandexMobileAds/YandexMobileAds-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E0844F3810F2E02CC8BFD91D5DCE84 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/YandexMobileAdsInstream/YandexMobileAdsInstream-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/YandexMobileAdsInstream/YandexMobileAdsInstream-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/YandexMobileAdsInstream/YandexMobileAdsInstream-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2C018334C03951AF2C86969084C0CB58 /* Sources */ = {
+		41A392A53FDD2B337943C7472BB639AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6711B83F76531BF181B5550E0DE09ED /* Pods-KubSTU-iOS-dummy.m in Sources */,
+				4AB15F0F3EA6F7DF06CFDF96FED407BE /* Pods-KubSTU-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,21 +1098,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B5BEB32F210EFE38F7D58FF8A1CC2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */,
+				5FA526557719FDBE81B1974B113CF600 /* SwiftyJSON-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5659D95A666CA20199D6969A982DA3C0 /* PBXTargetDependency */ = {
+		204A0BEB571B739B5E329547E96E9578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMobileAdsInstream;
+			target = 4EC5D92270B93BDEAD9BF335B0985A5B /* YandexMobileAdsInstream */;
+			targetProxy = 0388D5AAE95A59E7C050CB94BE6B93BC /* PBXContainerItemProxy */;
+		};
+		3E23D1A8F6018A8E8B76E9F97211B3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMobileAds;
+			target = 4832893FECBC39703BE3E09931358624 /* YandexMobileAds */;
+			targetProxy = EB90F058DC2ADCB2DC953AC4D37DFFDC /* PBXContainerItemProxy */;
+		};
+		4E89375FD4DB8543716CA6D1993C642A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMobileMetrica;
+			target = 899318C1CEDE586664EC232A68069570 /* YandexMobileMetrica */;
+			targetProxy = B1CCDECF4C89A8A01645B0FC7AE8D6DD /* PBXContainerItemProxy */;
+		};
+		76A9FE24D4BB83EDFBCB7F4DC989762C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMobileMetrica;
+			target = 899318C1CEDE586664EC232A68069570 /* YandexMobileMetrica */;
+			targetProxy = BB248093FCA36405F7F40BF94BBF8C39 /* PBXContainerItemProxy */;
+		};
+		7D821437E7D01D851A69F83496781F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = F8C404027C2A28E89CD065140F09953F /* PBXContainerItemProxy */;
+		};
+		A6F57B011AD5B54DFDA4D4843845CCE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YandexMobileAds;
+			target = 4832893FECBC39703BE3E09931358624 /* YandexMobileAds */;
+			targetProxy = B132E19E45A3330CF8BB90F5A4B97B5E /* PBXContainerItemProxy */;
+		};
+		DC7B2932A08D2C62D2EBA5685E3D0066 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StepperView;
 			target = 168A52CD2EC5A2263BAF15EFF9FB166E /* StepperView */;
-			targetProxy = A8078CC42B1175E10AC533F89EDD1CA3 /* PBXContainerItemProxy */;
+			targetProxy = 4900DBCA00A302DBEF6C2A1643ED390B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4482D472E7B18C287F960617F0710F6F /* Debug */ = {
+		0D9E4F70182376AD4DE88FDD1591754C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 354C71E0D37B4BF9881658F949485EF6 /* Pods-KubSTU-iOS.debug.xcconfig */;
+			baseConfigurationReference = BA36A3834D6B8BB3832D45765BF1685B /* Pods-KubSTU-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -399,6 +1189,57 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		278896BCFC36A6E723E9EBF71356AD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FC127E8785EF5BC1CD7DBC8187BD9F /* YandexMobileAdsInstream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3757FC330637FC3C0BEF02EC493DBE81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28C47779433E50A4791BE8773D56048 /* YandexMobileMetrica.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404CC334DB5C50FA8CAA5BD303377EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A82B6814CCB27EDB44CF7FE97D59EF /* YandexMobileAds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -437,7 +1278,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -462,6 +1302,40 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6D26AEB303746B6941C71B32A5DF4812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B706D33E44561F1540481FE63AA66D /* YandexMobileMetrica.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77EC6B1CF0CAEAD00EFF0D150727E6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763F22E56203628C499C4118EC1193B6 /* YandexMobileAds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -500,7 +1374,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -532,9 +1405,149 @@
 			};
 			name = Debug;
 		};
-		AA64BAA809015768E37BC3BAEFBC59C5 /* Release */ = {
+		A9EEBF12B0E3733A640B1F7870912751 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98F717892E958F3DC47FDECBD8CD95D4 /* Pods-KubSTU-iOS.release.xcconfig */;
+			baseConfigurationReference = 1CE05F0F3009455313179555157B263C /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4541A37A43E880EC04870F284E4DC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4267B2225E9008A74298F5478212862 /* StepperView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StepperView/StepperView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StepperView/StepperView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StepperView/StepperView.modulemap";
+				PRODUCT_MODULE_NAME = StepperView;
+				PRODUCT_NAME = StepperView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD0E5E3EFB0F4CCE246B60BB04FAB85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C05C87792A696CFF68E44CD3944241 /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0677D0FDBFEAEEE1F60625BA5CA8F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB5DCA5E729CB2B7E38C8E0B816482F /* StepperView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StepperView/StepperView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StepperView/StepperView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StepperView/StepperView.modulemap";
+				PRODUCT_MODULE_NAME = StepperView;
+				PRODUCT_NAME = StepperView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7BAB9A99F057758F34706D9BD8F22FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4973F8AFE01899F58F9AC31C51974846 /* Pods-KubSTU-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -570,85 +1583,50 @@
 			};
 			name = Release;
 		};
-		B4541A37A43E880EC04870F284E4DC17 /* Release */ = {
+		EF08791D7E2516786A4E459E8F88F7E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69D745CB460FC7C2EDB163BE2D2F15DA /* StepperView.release.xcconfig */;
+			baseConfigurationReference = B2BC7E41531EE0A953C68D112E86CDBE /* YandexMobileAdsInstream.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StepperView/StepperView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StepperView/StepperView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/StepperView/StepperView.modulemap";
-				PRODUCT_MODULE_NAME = StepperView;
-				PRODUCT_NAME = StepperView;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D0677D0FDBFEAEEE1F60625BA5CA8F8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12BC4C49F8A7042EE9EC21AA193A5CD9 /* StepperView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StepperView/StepperView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StepperView/StepperView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StepperView/StepperView.modulemap";
-				PRODUCT_MODULE_NAME = StepperView;
-				PRODUCT_NAME = StepperView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C3C4115C7630C1BE312D926CC26751E /* Build configuration list for PBXAggregateTarget "YandexMobileAdsInstream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278896BCFC36A6E723E9EBF71356AD72 /* Debug */,
+				EF08791D7E2516786A4E459E8F88F7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		216789C8BD59A7629344C01801A52DAA /* Build configuration list for PBXNativeTarget "StepperView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0677D0FDBFEAEEE1F60625BA5CA8F8A /* Debug */,
 				B4541A37A43E880EC04870F284E4DC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2490E828D479276A7E0AFBA515DD77FA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E5E3EFB0F4CCE246B60BB04FAB85B /* Debug */,
+				A9EEBF12B0E3733A640B1F7870912751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -662,11 +1640,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FBD7D7F90403CB63321367DAEDE02B9 /* Build configuration list for PBXNativeTarget "Pods-KubSTU-iOS" */ = {
+		80DEDCD72E84A29FF4B3D4D4A7FFCCF0 /* Build configuration list for PBXAggregateTarget "YandexMobileAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4482D472E7B18C287F960617F0710F6F /* Debug */,
-				AA64BAA809015768E37BC3BAEFBC59C5 /* Release */,
+				404CC334DB5C50FA8CAA5BD303377EBF /* Debug */,
+				77EC6B1CF0CAEAD00EFF0D150727E6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EA3C27A2F26CC5B17DB24C1FD9F08F /* Build configuration list for PBXNativeTarget "Pods-KubSTU-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9E4F70182376AD4DE88FDD1591754C /* Debug */,
+				D7BAB9A99F057758F34706D9BD8F22FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE55816F210974688A6F51D692FE1353 /* Build configuration list for PBXAggregateTarget "YandexMobileMetrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D26AEB303746B6941C71B32A5DF4812 /* Debug */,
+				3757FC330637FC3C0BEF02EC493DBE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

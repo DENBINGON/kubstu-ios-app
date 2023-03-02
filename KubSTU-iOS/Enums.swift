@@ -13,16 +13,15 @@ enum Resources {
         static var news = Image(systemName: "newspaper")
         static var find = Image(systemName:"magnifyingglass")
         static var schedule = Image(systemName:"calendar")
-        static var user = Image(systemName:"person")
+        static var user = Image(systemName:"gear")
         static var logo = Image("KubSTU-Logo-blue-trans-300x300")
     }
     
     enum Colors {
         static var accent = Color.accentColor
+        static var darkestAvailable = Color("darkAvailable")
         static var newsCard = Color("NewsCardColor")
-    }
-    
-    enum Text{
-        
+        static var background = Color("background")
+        static var forgereground = Color("Forgeground")
     }
 }

@@ -1,16 +1,42 @@
 PODS:
   - StepperView (1.6.7)
+  - SwiftyJSON (5.0.1)
+  - YandexMobileAds (5.2.1):
+    - YandexMobileAds/Static (= 5.2.1)
+  - YandexMobileAds/Static (5.2.1):
+    - YandexMobileMetrica (< 5.0.0, >= 4.0.0)
+  - YandexMobileAdsInstream (0.12.0):
+    - YandexMobileAds (~> 5.2.0)
+  - YandexMobileMetrica (4.4.0):
+    - YandexMobileMetrica/Static (= 4.4.0)
+  - YandexMobileMetrica/Static (4.4.0):
+    - YandexMobileMetrica/Static/Core (= 4.4.0)
+    - YandexMobileMetrica/Static/Crashes (= 4.4.0)
+  - YandexMobileMetrica/Static/Core (4.4.0)
+  - YandexMobileMetrica/Static/Crashes (4.4.0):
+    - YandexMobileMetrica/Static/Core
 
 DEPENDENCIES:
   - StepperView
+  - SwiftyJSON
+  - YandexMobileAds
+  - YandexMobileAdsInstream
 
 SPEC REPOS:
   trunk:
     - StepperView
+    - SwiftyJSON
+    - YandexMobileAds
+    - YandexMobileAdsInstream
+    - YandexMobileMetrica
 
 SPEC CHECKSUMS:
   StepperView: 9b88922ef65712410c0e95c460cd115d33cfd933
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  YandexMobileAds: 3d7708df615f92815a3acedf9869da46d0b4d65e
+  YandexMobileAdsInstream: 9af68b07d930a9d16b343838ebffe6605ef086a2
+  YandexMobileMetrica: baf7cea47cb87fc9af963c4f747ce8dd7df3d7c0
 
-PODFILE CHECKSUM: 7abc62f0d67f70d3d7813162a8f8de8f169d343c
+PODFILE CHECKSUM: f0a2b7de478ab4e0714d6ba89b739059636def3f
 
 COCOAPODS: 1.11.3

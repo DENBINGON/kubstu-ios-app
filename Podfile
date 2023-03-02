@@ -8,4 +8,7 @@ target 'KubSTU-iOS' do
   # Pods for KubSTU-iOS
   pod 'StepperView'
   pod 'SwiftyJSON'
+  pod 'YandexMobileAds'
+  pod 'YandexMobileAdsInstream'
+
 end
